@@ -7,7 +7,7 @@ pr: 25
 url: https://github.com/VictorNascimento14/Arcada/pull/25
 branch: feat/tipos-do-dominio
 tags: [pr, fundacao, dominio]
-status: aberto
+status: merged
 ---
 
 # PR #25 — feat(dominio): definir os tipos do domínio e o dinheiro em centavos
