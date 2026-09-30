@@ -13,16 +13,14 @@ tags: [funcionalidade, odontograma, condicoes]
 
 As nove condições que o odontograma registra e a legenda que mostra a cor de cada uma. As condições só
 nomeiam o que o profissional registrou: o app não sugere conduta clínica. O significado de cada uma está no
-[[glossario]] (seção Condição). Ainda não há rota: o módulo Odontograma não tem `modulo.ts`, e a `Legenda` só
-aparece quando uma tela a usar (o desenho do dente e as arcadas, itens 3.4 e 3.5 do
-[[2026-09-30-plano-da-v1]]).
+[[glossario]] (seção Condição). Não tem rota própria: as condições se marcam na aba **Odontograma** da ficha do paciente ([[MarcarCondicoes]], item 3.7 do [[2026-09-30-plano-da-v1]]), onde o símbolo de cada uma aparece no dente e na barra de escolha. A `Legenda` também mostra cor e símbolo, mas nenhuma tela a monta ainda.
 
 ## Onde está no código
 
 - `src/modulos/odontograma/condicoes.ts` — `CONDICOES` e os tipos `Condicao`, `EscopoCondicao` e
   `CondicaoId`.
 - `src/modulos/odontograma/condicoes.test.ts` — os testes da lista.
-- `src/modulos/odontograma/Legenda.tsx` — o componente (exportação padrão).
+- `src/modulos/odontograma/Legenda.tsx` — o componente (exportação padrão): desenha o símbolo (`IconeDaCondicao`, de `desenho.tsx`) e o nome de cada condição.
 - `src/modulos/odontograma/Legenda.test.tsx` — os testes da legenda.
 
 ## Comportamento
@@ -48,18 +46,18 @@ aparece quando uma tela a usar (o desenho do dente e as arcadas, itens 3.4 e 3.5
   escrita por extenso porque o Tailwind só gera a classe que está no fonte. Quem usa a cor a converte pelo
   `currentColor`: `bg-current` no marcador da legenda, `fill-current` ou `stroke-current` num desenho.
 - **`Legenda`** mostra as condições em dois grupos, "Por face" e "Dente inteiro", cada um uma lista com nome
-  acessível. O quadrado colorido é decorativo (`aria-hidden`) e o nome está sempre escrito ao lado. Não
+  acessível. O símbolo da condição, na cor dela, é decorativo (`aria-hidden`) e o nome está sempre escrito ao lado. Não
   recebe props.
 
 ## Limites conhecidos
 
-- A cor não pode ser o único sinal: quatro das nove (vermelho, âmbar, lima e esmeralda) ficam no eixo
-  vermelho–verde que o daltonismo mais confunde. O desenho do dente deve repetir a condição em texto (o
-  `aria-label` da face, por exemplo) ou num símbolo; os símbolos da legenda seguem `<A DEFINIR>` no
-  [[glossario]].
-- O contraste das cores sobre o vidro claro e escuro não foi medido em tela: não havia rota para abrir a
-  legenda. Confira na primeira tela que a usar.
+- A cor não é o único sinal: quatro das nove (vermelho, âmbar, lima e esmeralda) ficam no eixo vermelho–verde
+  que o daltonismo mais confunde, e por isso cada condição tem também um símbolo só seu, definido em
+  [[MarcarCondicoes]]; o `aria-label` da face também traz a condição em texto.
+- O contraste das cores sobre o vidro claro e escuro não foi medido em tela: a `Legenda` ainda não tem tela que
+  a monte. Confira na primeira que a usar.
 
 ## Histórico de mudanças
 
 - [[2026-09-30-pr-070-odontograma-condicoes-e-legenda]] — a lista de condições e a `Legenda`.
+- [[2026-09-30-pr-112-odontograma-marcar]] — o símbolo de cada condição (no dente, na barra e na `Legenda`), definido em [[MarcarCondicoes]].
