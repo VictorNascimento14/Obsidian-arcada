@@ -70,3 +70,4 @@ Toda mudança no repositório de código vira uma nota aqui. Mais recente embaix
 | #119 | [[2026-09-30-pr-119-alertas-do-paciente]] — feat(pacientes): mostrar os alertas da anamnese no cartão e na ficha |
 | #121 | [[2026-09-30-pr-121-reajuste-de-precos-em-lote]] — feat(procedimentos): reajustar preços em lote com prévia |
 | #122 | [[2026-09-30-pr-122-anamnese-historico]] — feat(anamnese): listar as versões da anamnese e abrir as respostas de cada uma |
+| #125 | [[2026-09-30-pr-125-convenios-aceitos-da-clinica]] — feat(clinica): cadastrar os convênios aceitos pela clínica |
