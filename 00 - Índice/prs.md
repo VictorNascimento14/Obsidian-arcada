@@ -84,3 +84,4 @@ Toda mudança no repositório de código vira uma nota aqui. Mais recente embaix
 | #146 | [[2026-09-30-pr-146-periodontograma-teclado-arcada-inferior]] — feat(periodontograma): incluir a arcada inferior e percorrer a grade pelo teclado |
 | #147 | [[2026-09-30-pr-147-financeiro-baixa]] — feat(financeiro): dar baixa em uma parcela com a forma e a data do pagamento |
 | #152 | [[2026-09-30-pr-152-atendimento-evolucao]] — feat(atendimento): registrar a evolução clínica da consulta |
+| #153 | [[2026-09-30-pr-153-agenda-whatsapp]] — feat(agenda): pedir a confirmação da consulta pelo WhatsApp |
