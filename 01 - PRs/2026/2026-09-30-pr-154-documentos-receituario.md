@@ -7,7 +7,7 @@ pr: 154
 url: https://github.com/VictorNascimento14/Arcada/pull/154
 branch: feat/documentos-receituario
 tags: [pr, documentos, receituario, impressao]
-status: aberto
+status: merged
 ---
 
 # PR #154 — feat(documentos): imprimir o receituário em texto livre com linha para assinatura
