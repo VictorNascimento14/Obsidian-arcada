@@ -93,3 +93,4 @@ Toda mudança no repositório de código vira uma nota aqui. Mais recente embaix
 | #164 | [[2026-09-30-pr-164-periodontograma-indices]] — feat(periodontograma): mostrar os índices do exame em cartões |
 | #165 | [[2026-09-30-pr-165-retornos-regra]] — feat(retornos): calcular a data do retorno pelo último atendimento e pelo intervalo do procedimento |
 | #169 | [[2026-09-30-pr-169-documentos-declaracao]] — feat(documentos): imprimir a declaração de comparecimento com o horário da consulta |
+| #170 | [[2026-09-30-pr-170-painel-hoje]] — feat(painel): mostrar as consultas de hoje com a situação e a próxima em destaque |
