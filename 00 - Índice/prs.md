@@ -101,3 +101,4 @@ Toda mudança no repositório de código vira uma nota aqui. Mais recente embaix
 | #178 | [[2026-09-30-pr-178-sistema-restaurar]] — feat(sistema): restaurar os dados de demonstração apagando o que o navegador guarda |
 | #181 | [[2026-09-30-pr-181-retornos-contato]] — feat(retornos): contatar o paciente pelo WhatsApp e oferecer o atalho para marcar a consulta |
 | #182 | [[2026-09-30-pr-182-painel-em-aberto]] — feat(painel): mostrar a contagem e o valor dos orçamentos e tratamentos em aberto |
+| #186 | [[2026-09-30-pr-186-sistema-busca]] — feat(sistema): buscar pacientes pelo atalho Ctrl+K e abrir a ficha com Enter |
