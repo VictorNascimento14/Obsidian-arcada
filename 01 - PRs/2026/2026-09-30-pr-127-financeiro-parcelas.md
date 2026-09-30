@@ -7,7 +7,7 @@ pr: 127
 url: https://github.com/VictorNascimento14/Arcada/pull/127
 branch: feat/financeiro-parcelas
 tags: [pr, financeiro, lancamento, parcela, orcamento]
-status: aberto
+status: merged
 ---
 
 # PR #127 — feat(financeiro): gerar as parcelas do orçamento aprovado
