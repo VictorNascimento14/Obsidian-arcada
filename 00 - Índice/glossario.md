@@ -18,6 +18,10 @@ que espelham estes termos, em [[TiposDoDominio]].
 
 - **Ficha do paciente** — A tela que reúne tudo de um paciente, em abas. Cada módulo que guarda dado por
   paciente registra a sua aba ([[ADR-003-modulos-por-pasta-com-registro-automatico]]).
+- **Idade e faixa etária** — A idade é contada em anos completos pela data de nascimento: no dia do
+  aniversário o ano já conta, e quem nasceu em 29/02 completa o ano em 1º/03 nos anos não bissextos. A
+  **faixa etária** agrupa a idade: **criança** até 11 anos, **adolescente** de 12 a 17, **adulto** de 18 a 59
+  e **idoso** a partir de 60. É só um agrupamento por idade ([[IdadeEFaixaEtaria]]).
 - **Anamnese** — Questionário sobre a saúde e o histórico do paciente: o que ele conta ao profissional
   antes e durante o tratamento. No Arcada ela mora na ficha, guarda o **histórico de versões** e imprime
   com linha para assinatura à mão. As perguntas do modelo são definidas no módulo 2 (`<A DEFINIR>`).
@@ -35,7 +39,7 @@ que espelham estes termos, em [[TiposDoDominio]].
 - **Notação FDI (ISO 3950)** — Forma de nomear cada dente com **dois dígitos**: o primeiro é o quadrante; o
   segundo, a posição contada a partir da linha média (1 é o incisivo central). `11` é o incisivo central
   superior direito; `36`, o primeiro molar inferior esquerdo. É a notação do Arcada:
-  [[ADR-004-notacao-fdi-no-odontograma]].
+  [[ADR-004-notacao-fdi-no-odontograma]]; a regra no código, em [[NotacaoFdi]].
 - **Quadrante** — Cada uma das quatro partes em que a boca se divide: a metade direita e a metade
   esquerda de cada arcada. Na ordem da FDI: superior direito, superior esquerdo, inferior esquerdo e
   inferior direito, de 1 a 4 (de 5 a 8 nos decíduos). Direito e esquerdo são sempre **do paciente**. O
@@ -50,7 +54,7 @@ que espelham estes termos, em [[TiposDoDominio]].
 ### Faces
 
 Cada dente tem **cinco faces** no desenho do Arcada: V, M e D, mais **L ou P** (conforme a arcada) e
-**O ou I** (conforme o tipo de dente).
+**O ou I** (conforme o tipo de dente). A regra de quais faces cada dente tem, em [[FacesDoDente]].
 
 | Sigla | Face | Onde fica |
 |---|---|---|
@@ -64,8 +68,9 @@ Cada dente tem **cinco faces** no desenho do Arcada: V, M e D, mais **L ou P** (
 
 ### Condição
 
-Estado registrado para um dente, ou para uma face dele, no odontograma. A v1 parte de nove condições;
-cores e símbolos da legenda são definidos no módulo 3 (`<A DEFINIR>`).
+Estado registrado para um dente, ou para uma face dele, no odontograma. A v1 parte de nove condições:
+cárie, restauração e selante se marcam numa face; as outras seis valem no dente inteiro. Cada uma tem uma
+cor na legenda ([[CondicoesELegenda]]); os símbolos da legenda são definidos no módulo 3 (`<A DEFINIR>`).
 
 | Condição | O que significa |
 |---|---|
@@ -109,8 +114,10 @@ cores e símbolos da legenda são definidos no módulo 3 (`<A DEFINIR>`).
   ortodontia, por exemplo). O catálogo padrão é organizado por especialidade.
 - **Plano de tratamento** — Os procedimentos propostos a um paciente, cada um ligado a um dente e a uma
   face quando cabe, com o valor de cada item. Pode nascer do odontograma e tem uma situação e um
-  progresso (quanto já foi realizado). A situação é uma destas: proposto, aprovado, em andamento, concluído ou
-  recusado; as transições entre elas são definidas no módulo 7 (`<A DEFINIR>`).
+  progresso (quanto já foi realizado). A situação é uma destas: **proposto**, **aprovado**, **em andamento**,
+  **concluído** ou **recusado**. O caminho é proposto → aprovado → em andamento → concluído; o proposto também
+  pode ser recusado. Concluído e recusado são o fim: não há reabrir plano na v1, e não se pula etapa nem se
+  volta ([[SituacaoDoPlano]]).
 - **Orçamento** — A proposta de valores do plano de tratamento: preço de cada item, desconto, total e
   forma de pagamento (parcelamento). É impresso para o paciente decidir; **aprovado**, gera as parcelas do
   financeiro.
@@ -132,9 +139,12 @@ cores e símbolos da legenda são definidos no módulo 3 (`<A DEFINIR>`).
 - **Expediente** — Os horários em que a clínica atende em cada dia da semana. É dentro dele que a agenda
   mostra os horários livres.
 - **Consulta** — Um horário marcado na agenda: um paciente, um profissional, uma cadeira, um dia e uma
-  hora. Tem uma situação — agendada, confirmada, em atendimento, concluída, faltou (o paciente não veio) ou
-  cancelada; as transições entre elas são definidas no módulo 8 — e pode ser remarcada ou cancelada, com
-  motivo.
+  hora. Tem uma situação — **agendada**, **confirmada**, **em atendimento**, **concluída**, **faltou** (o
+  paciente não veio) ou **cancelada** — e pode ser remarcada ou cancelada, com motivo. O caminho é agendada →
+  confirmada → em atendimento → concluída, e a agendada também entra direto em atendimento (quem chega sem
+  ter confirmado é atendido do mesmo jeito); da agendada e da confirmada a consulta ainda pode terminar em
+  faltou ou cancelada. Concluída, faltou e cancelada são o fim: a consulta não volta nem muda de novo
+  ([[2026-09-30-pr-061-situacao-da-consulta]]).
 - **Atendimento** — O que se faz quando a consulta acontece: começa **a partir da consulta**, registra os
   procedimentos realizados e a evolução clínica e termina ao ser finalizado. A consulta é o horário; o
   atendimento é o que acontece nele.
@@ -147,9 +157,11 @@ cores e símbolos da legenda são definidos no módulo 3 (`<A DEFINIR>`).
 ## Clínica e convênio
 
 - **CRO** — Conselho Regional de Odontologia, o conselho de classe em que o dentista se inscreve. O
-  **registro no CRO** é o número dessa inscrição, acompanhado da sigla do estado do conselho; no exemplo
-  estável, `CRO-UF 00000`. No Arcada é dado do cadastro do profissional (módulo 5), com validação do
-  registro.
+  **registro no CRO** é o número dessa inscrição, acompanhado da sigla do estado do conselho: `CRO-SP 12345`
+  é `CRO`, hífen, a sigla de uma das 27 UFs, espaço e o número, com os zeros à esquerda. No exemplo estável,
+  `CRO-SP 00000`. No Arcada é dado do cadastro do profissional (módulo 5, [[Profissionais]]), e o app só
+  confere o **formato** ([[2026-09-30-pr-038-registro-no-cro]]): não consulta o conselho, então registro com
+  formato válido não é registro confirmado.
 - **Convênio** — Plano odontológico (operadora) que paga, no todo ou em parte, o tratamento do paciente. A
   clínica cadastra os **convênios aceitos** e o paciente pode ter um. O faturamento ao convênio (guias no
   padrão TISS, a Troca de Informações na Saúde Suplementar da ANS) **não** faz parte da v1
