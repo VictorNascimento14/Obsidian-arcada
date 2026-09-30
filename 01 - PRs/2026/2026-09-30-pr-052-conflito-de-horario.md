@@ -7,7 +7,7 @@ pr: 52
 url: https://github.com/VictorNascimento14/Arcada/pull/52
 branch: feat/agenda-conflitos
 tags: [pr, agenda, conflitos]
-status: aberto
+status: merged
 ---
 
 # PR #52 — feat(agenda): detectar conflito de horário por cadeira e profissional
