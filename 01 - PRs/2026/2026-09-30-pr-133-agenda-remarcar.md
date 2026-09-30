@@ -7,7 +7,7 @@ pr: 133
 url: https://github.com/VictorNascimento14/Arcada/pull/133
 branch: feat/agenda-remarcar
 tags: [pr, agenda, remarcar, cancelar]
-status: aberto
+status: merged
 ---
 
 # PR #133 — feat(agenda): remarcar e cancelar a consulta com motivo
