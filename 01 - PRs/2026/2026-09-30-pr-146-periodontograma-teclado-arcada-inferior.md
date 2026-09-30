@@ -7,7 +7,7 @@ pr: 146
 url: https://github.com/VictorNascimento14/Arcada/pull/146
 branch: feat/perio-inferior
 tags: [pr, periodontograma, teclado, grade]
-status: aberto
+status: merged
 ---
 
 # PR #146 — feat(periodontograma): incluir a arcada inferior e percorrer a grade pelo teclado
