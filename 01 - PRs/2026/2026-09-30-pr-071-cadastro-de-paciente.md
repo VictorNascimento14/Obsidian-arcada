@@ -7,7 +7,7 @@ pr: 71
 url: https://github.com/VictorNascimento14/Arcada/pull/71
 branch: feat/pacientes-cadastro
 tags: [pr, pacientes, cadastro, formulario]
-status: aberto
+status: merged
 ---
 
 # PR #71 — feat(pacientes): cadastrar paciente com nome, nascimento e CPF validado
