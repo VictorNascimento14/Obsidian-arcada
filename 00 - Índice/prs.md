@@ -41,3 +41,4 @@ Toda mudança no repositório de código vira uma nota aqui. Mais recente embaix
 | #61 | [[2026-09-30-pr-061-situacao-da-consulta]] — feat(agenda): definir as transições válidas da situação da consulta |
 | #64 | [[2026-09-30-pr-064-profissionais-da-clinica]] — feat(clinica): cadastrar profissionais com CRO e cor na agenda |
 | #65 | [[2026-09-30-pr-065-odontograma-faces-por-dente]] — feat(odontograma): definir as faces de cada dente e a validação delas |
+| #68 | [[2026-09-30-pr-068-tratamentos-desconto]] — feat(tratamentos): aplicar o desconto percentual ou em valor ao orçamento |
