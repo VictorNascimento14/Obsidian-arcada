@@ -7,7 +7,7 @@ pr: 131
 url: https://github.com/VictorNascimento14/Arcada/pull/131
 branch: feat/anamnese-impressao
 tags: [pr, anamnese, impressao, assinatura]
-status: aberto
+status: merged
 ---
 
 # PR #131 — feat(anamnese): imprimir a anamnese com linha para assinatura do paciente
