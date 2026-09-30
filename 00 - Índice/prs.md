@@ -62,3 +62,4 @@ Toda mudança no repositório de código vira uma nota aqui. Mais recente embaix
 | #103 | [[2026-09-30-pr-103-tratamentos-em-aberto]] — feat(tratamentos): listar os planos de tratamento em aberto |
 | #104 | [[2026-09-30-pr-104-anamnese-formulario]] — feat(anamnese): preencher e salvar a anamnese na ficha do paciente |
 | #107 | [[2026-09-30-pr-107-expediente-da-clinica]] — feat(clinica): editar o expediente por dia da semana |
+| #108 | [[2026-09-30-pr-108-tratamentos-progresso]] — feat(tratamentos): mostrar o progresso do tratamento na ficha e na lista |
