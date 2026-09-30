@@ -11,7 +11,7 @@ tags: [funcionalidade, agenda, calendario]
 
 ## O que é
 
-O calendário do mês da [[AgendaDoDia]]: mostra de relance quais dias têm consulta e leva a qualquer um deles
+O calendário do mês da [[AgendaDoDia]] e da [[AgendaDaSemana]]: mostra de relance quais dias têm consulta e leva a qualquer um deles
 com um toque. É o `Calendar` do kit, sem código de calendário próprio.
 
 ## Onde está no código
@@ -29,11 +29,14 @@ com um toque. É o `Calendar` do kit, sem código de calendário próprio.
 - **Clicar num dia** abre esse dia: o título e a grade passam a ser dele, e o botão **Hoje** volta a valer.
 - **O mês é do calendário**: as setas dele andam de mês sem mudar o dia aberto, e ele abre sempre no mês de hoje.
   Ir ao dia anterior ou ao seguinte, ou marcar uma consulta em outro mês, não muda o mês que o calendário mostra.
-- **Tela larga (`xl`, 1280 px ou mais)**: o calendário fica numa coluna de 19 rem ao lado da grade e acompanha a
+- **Tela larga (`xl`, 1280 px ou mais), na visão do dia**: o calendário fica numa coluna de 19 rem ao lado da grade e acompanha a
   rolagem do dia (`sticky`).
-- **Celular e tablet**: o calendário fica escondido; o botão **Mês** (`aria-expanded`) o abre e fecha, e escolher
+- **Celular e tablet, na visão do dia**: o calendário fica escondido; o botão **Mês** (`aria-expanded`) o abre e fecha, e escolher
   um dia o fecha. Nessa largura o título do dia ocupa a linha de cima e o botão **Marcar consulta** mostra só o `+`
   (o nome continua no leitor de tela).
+- **Na visão da semana** ([[AgendaDaSemana]]): as sete colunas precisam da largura toda, então o calendário não
+  fica ao lado da grade, em largura nenhuma. O botão **Mês** o abre acima, e clicar num dia mostra a semana
+  desse dia.
 - **Não faz**: marcar feriado no calendário, nem destacar o dia aberto (o kit só tem a pílula de hoje).
 
 ## Movimento e micro-interações
@@ -44,3 +47,4 @@ O cartão de vidro sobe ao entrar na tela. Os dias e as setas usam o `press` do 
 ## Histórico de mudanças
 
 - [[2026-09-30-pr-102-agenda-calendario]] — o calendário do mês na agenda, com a marca dos dias que têm consulta.
+- [[2026-09-30-pr-145-agenda-semana]] — na visão da semana o calendário abre pelo botão **Mês**, acima da grade.
