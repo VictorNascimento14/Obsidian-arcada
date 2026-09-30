@@ -12,8 +12,7 @@ tags: [funcionalidade, sistema, backup]
 ## O que é
 
 A tela de sistema, no grupo **Cadastros** da coluna lateral: um cartão por assunto dos dados do navegador,
-empilhados. Hoje há um, o **backup dos dados**. A restauração da demonstração e a busca global entram depois,
-no mesmo módulo.
+empilhados. Hoje há três: o **backup dos dados**, a **restauração da demonstração** ([[RestauracaoDaDemonstracao]]) e a **busca de pacientes** ([[BuscaGlobal]]), cujo atalho `Ctrl+K` está montado na raiz das rotas e vale em qualquer tela.
 
 ## Onde está no código
 
@@ -22,7 +21,13 @@ no mesmo módulo.
   ([[ADR-003-modulos-por-pasta-com-registro-automatico]]).
 - `src/modulos/sistema/PaginaSistema.tsx` — a página: `PageShell` e os cartões.
 - `src/modulos/sistema/CartaoDeBackup.tsx` — o cartão de exportar e importar.
-- `src/dados/backup.ts` — a regra: `exportarBackup`, `lerBackup` e `substituirPor`. Mora em `src/dados/` porque
+- `src/modulos/sistema/CartaoDeRestauracao.tsx` — o cartão que apaga o que o navegador guarda e recarrega a
+  demonstração ([[RestauracaoDaDemonstracao]]).
+- `src/modulos/sistema/CartaoDeBusca.tsx`, `BuscaGlobal.tsx` e `atalhoDeBusca.ts` — o cartão do atalho, a caixa
+  de busca e o evento que a abre ([[BuscaGlobal]]).
+- `src/rotas.tsx` — a raiz das rotas monta a `BuscaGlobal` (PR #189): o `Ctrl+K` abre a busca em qualquer tela,
+  e só uma instância responde.
+- `src/dados/backup.ts` — a regra: `exportarBackup`, `lerBackup`, `substituirPor` e `restaurarDemonstracao`. Mora em `src/dados/` porque
   só lá se toca o `localStorage` ([[ADR-001-frontend-primeiro-com-dados-locais]]).
 
 ## Comportamento
@@ -47,6 +52,18 @@ no mesmo módulo.
 - **Aviso de dado de saúde** fixo no cartão: o arquivo tem dado pessoal sensível; guardar em lugar seguro e não
   enviar por canal aberto.
 
+### Restaurar a demonstração
+
+O segundo cartão apaga tudo o que o navegador guarda do Arcada e recarrega a página, para as sementes plantarem
+os dados fictícios de novo. Pede confirmação, avisa que não dá para desfazer e lembra de exportar um backup
+antes. O detalhe está em [[RestauracaoDaDemonstracao]].
+
+### Busca de pacientes
+
+O terceiro cartão mostra o atalho `Ctrl+K` (`⌘K` no Mac) e o botão **Buscar**, que abre a caixa de busca por
+nome ou telefone; Enter abre a ficha do paciente. A caixa está montada na raiz das rotas, então o atalho abre a
+mesma caixa em qualquer tela, não só nesta. O detalhe está em [[BuscaGlobal]].
+
 ## Movimento e micro-interações
 
 Sem movimento próprio: o cartão é o `GlassCard` do kit e o modal de confirmação é o `Modal` (véu escurecido,
@@ -55,3 +72,6 @@ fecha no Escape e no clique fora). Exportar confirma com um aviso passageiro («
 ## Histórico de mudanças
 
 - [[2026-09-30-pr-171-sistema-backup]] — Backup: exportar e importar, e a rota `/sistema` com o item da coluna.
+- [[2026-09-30-pr-178-sistema-restaurar]] — o cartão de restaurar a demonstração.
+- [[2026-09-30-pr-186-sistema-busca]] — o cartão da busca de pacientes, com o atalho `Ctrl+K`.
+- [[2026-09-30-pr-189-busca-na-casca]] — a busca montada na raiz das rotas: `Ctrl+K` em qualquer tela.
