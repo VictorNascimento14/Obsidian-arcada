@@ -23,3 +23,4 @@ Toda mudança no repositório de código vira uma nota aqui. Mais recente embaix
 | #24 | [[2026-09-30-pr-024-repositorio-local]] — feat(dados): criar o repositório local com coleções versionadas |
 | #25 | [[2026-09-30-pr-025-tipos-do-dominio]] — feat(dominio): definir os tipos do domínio e o dinheiro em centavos |
 | #30 | [[2026-09-30-pr-030-pacientes-cpf]] — feat(pacientes): validar e mascarar CPF com dígitos verificadores |
+| #31 | [[2026-09-30-pr-031-feriados-nacionais]] — feat(agenda): calcular os feriados nacionais a partir da Páscoa |
