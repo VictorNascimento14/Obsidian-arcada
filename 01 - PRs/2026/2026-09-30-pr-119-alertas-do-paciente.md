@@ -7,7 +7,7 @@ pr: 119
 url: https://github.com/VictorNascimento14/Arcada/pull/119
 branch: feat/pacientes-alertas
 tags: [pr, pacientes, anamnese]
-status: aberto
+status: merged
 ---
 
 # PR #119 — feat(pacientes): mostrar os alertas da anamnese no cartão e na ficha
