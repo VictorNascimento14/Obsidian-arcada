@@ -7,7 +7,7 @@ pr: 170
 url: https://github.com/VictorNascimento14/Arcada/pull/170
 branch: feat/painel-hoje
 tags: [pr, painel, consultas, agenda]
-status: aberto
+status: merged
 ---
 
 # PR #170 — feat(painel): mostrar as consultas de hoje com a situação e a próxima em destaque
