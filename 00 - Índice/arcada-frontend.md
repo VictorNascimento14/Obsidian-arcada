@@ -39,6 +39,7 @@ Um bloco por módulo, na numeração do [[2026-09-30-plano-da-v1]]; módulo sem 
 
 - [[CondicoesELegenda]] — as nove condições do odontograma e a legenda com a cor de cada uma.
 - [[Dente]] — o desenho de um dente em SVG, com o número FDI e as cinco faces, clicáveis e focáveis por teclado.
+- [[Arcadas]] — as duas arcadas permanentes, cada dente desenhado pelo `Dente`, com a linha média no meio.
 
 ### 5 · Clínica e equipe
 
@@ -61,5 +62,6 @@ Um bloco por módulo, na numeração do [[2026-09-30-plano-da-v1]]; módulo sem 
 ### 8 · Agenda
 
 - [[Agenda do dia]] — `/agenda`: o dia da clínica por cadeira.
+- [[Marcar consulta]] — o modal da agenda que marca a consulta, barra conflito e feriado e sugere os horários livres.
 
 ## Fluxos
