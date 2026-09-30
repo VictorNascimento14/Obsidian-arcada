@@ -39,3 +39,4 @@ Toda mudança no repositório de código vira uma nota aqui. Mais recente embaix
 | #59 | [[2026-09-30-pr-059-horarios-livres]] — feat(agenda): listar os horários livres do expediente |
 | #60 | [[2026-09-30-pr-060-tratamentos-situacao]] — feat(tratamentos): definir as transições da situação do plano |
 | #61 | [[2026-09-30-pr-061-situacao-da-consulta]] — feat(agenda): definir as transições válidas da situação da consulta |
+| #64 | [[2026-09-30-pr-064-profissionais-da-clinica]] — feat(clinica): cadastrar profissionais com CRO e cor na agenda |
