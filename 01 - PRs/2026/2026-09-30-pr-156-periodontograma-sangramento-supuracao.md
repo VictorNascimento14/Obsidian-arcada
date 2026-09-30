@@ -7,7 +7,7 @@ pr: 156
 url: https://github.com/VictorNascimento14/Arcada/pull/156
 branch: feat/perio-sangramento
 tags: [pr, periodontograma, sangramento, supuracao]
-status: aberto
+status: merged
 ---
 
 # PR #156 — feat(periodontograma): marcar sangramento e supuração em cada sítio
