@@ -18,3 +18,4 @@ Toda mudança no repositório de código vira uma nota aqui. Mais recente embaix
 | #18 | [[2026-09-30-pr-018-casca]] — ui(casca): instalar coluna lateral, cabeçalho e barra do celular |
 | #20 | [[2026-09-30-pr-020-icones]] — ui(icones): acrescentar ícones de navegação do Arcada ao Glyph |
 | #21 | [[2026-09-30-pr-021-deploy-pages]] — chore(deploy): publicar a demo no GitHub Pages a cada merge na main |
+| #22 | [[2026-09-30-pr-022-registro-de-modulos]] — feat(modulos): registrar módulos por pasta com import.meta.glob |
