@@ -103,3 +103,4 @@ Toda mudança no repositório de código vira uma nota aqui. Mais recente embaix
 | #182 | [[2026-09-30-pr-182-painel-em-aberto]] — feat(painel): mostrar a contagem e o valor dos orçamentos e tratamentos em aberto |
 | #186 | [[2026-09-30-pr-186-sistema-busca]] — feat(sistema): buscar pacientes pelo atalho Ctrl+K e abrir a ficha com Enter |
 | #187 | [[2026-09-30-pr-187-retornos-adiar]] — feat(retornos): adiar ou dispensar o retorno do paciente com o motivo |
+| #189 | [[2026-09-30-pr-189-busca-na-casca]] — feat(sistema): abrir a busca global com Ctrl+K em qualquer tela |
