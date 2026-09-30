@@ -7,7 +7,7 @@ pr: 102
 url: https://github.com/VictorNascimento14/Arcada/pull/102
 branch: feat/agenda-calendario
 tags: [pr, agenda, calendario, visao-do-dia]
-status: aberto
+status: merged
 ---
 
 # PR #102 — feat(agenda): mostrar o calendário do mês com os dias que têm consulta
