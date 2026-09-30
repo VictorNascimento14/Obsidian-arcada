@@ -59,4 +59,7 @@ odontograma; ver [[2026-09-30-plano-da-v1]].
 
 ## Implementado em
 
-TODO: PR que implementar (previsto em [[2026-09-30-plano-da-v1]]).
+- Os tipos `NumeroDente` e `Face`: [[2026-09-30-pr-025-tipos-do-dominio]], em `src/dominio/odontologia.ts`; visão geral em
+  [[TiposDoDominio]].
+- A regra da notação (números que existem, quadrante e dentição): TODO: PR que implementar (item 3.1 do
+  [[2026-09-30-plano-da-v1]]).

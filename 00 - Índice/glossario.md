@@ -11,7 +11,8 @@ descreve: não classifica e não recomenda conduta clínica. Onde o produto aind
 escrito `<A DEFINIR>`. Escala de classificação clínica não é nomeada aqui; quando um módulo adotar uma, o PR
 dele a define neste glossário.
 
-Visão geral em [[visao-de-produto]]; módulos e backlog em [[2026-09-30-plano-da-v1]].
+Visão geral em [[visao-de-produto]]; módulos e backlog em [[2026-09-30-plano-da-v1]]; os tipos do código
+que espelham estes termos, em [[TiposDoDominio]].
 
 ## Paciente e anamnese
 
@@ -108,16 +109,20 @@ cores e símbolos da legenda são definidos no módulo 3 (`<A DEFINIR>`).
   ortodontia, por exemplo). O catálogo padrão é organizado por especialidade.
 - **Plano de tratamento** — Os procedimentos propostos a um paciente, cada um ligado a um dente e a uma
   face quando cabe, com o valor de cada item. Pode nascer do odontograma e tem uma situação e um
-  progresso (quanto já foi realizado); as situações são definidas no módulo 7 (`<A DEFINIR>`).
+  progresso (quanto já foi realizado). A situação é uma destas: proposto, aprovado, em andamento, concluído ou
+  recusado; as transições entre elas são definidas no módulo 7 (`<A DEFINIR>`).
 - **Orçamento** — A proposta de valores do plano de tratamento: preço de cada item, desconto, total e
   forma de pagamento (parcelamento). É impresso para o paciente decidir; **aprovado**, gera as parcelas do
   financeiro.
 - **Parcela** — Cada pagamento em que o valor de um orçamento aprovado se divide, com vencimento e valor em
   centavos. A soma das parcelas fecha exatamente o total: o resto da divisão vai para as primeiras
   ([[ADR-005-dinheiro-em-centavos-inteiros]]).
+- **Lançamento** — O registro de um valor a receber de um paciente, com vencimento. A parcela de um orçamento
+  aprovado é um lançamento: no código os dois são o mesmo tipo (`Lancamento`).
 - **Contas a receber** — As parcelas que ainda não receberam baixa, vencidas ou a vencer.
-- **Baixa** — O registro de que uma parcela foi paga. Dar baixa tira a parcela das contas a receber; o
-  **estorno de baixa** desfaz o registro.
+- **Baixa** — O registro de que uma parcela foi paga, com o dia e a forma do pagamento (dinheiro, Pix, cartão
+  de débito ou de crédito). Dar baixa tira a parcela das contas a receber; o **estorno de baixa** desfaz o
+  registro.
 - **Inadimplência** — A situação de uma parcela cujo vencimento passou sem baixa.
 
 ## Agenda e atendimento
@@ -127,7 +132,9 @@ cores e símbolos da legenda são definidos no módulo 3 (`<A DEFINIR>`).
 - **Expediente** — Os horários em que a clínica atende em cada dia da semana. É dentro dele que a agenda
   mostra os horários livres.
 - **Consulta** — Um horário marcado na agenda: um paciente, um profissional, uma cadeira, um dia e uma
-  hora. Tem uma situação (definida no módulo 8) e pode ser remarcada ou cancelada, com motivo.
+  hora. Tem uma situação — agendada, confirmada, em atendimento, concluída, faltou (o paciente não veio) ou
+  cancelada; as transições entre elas são definidas no módulo 8 — e pode ser remarcada ou cancelada, com
+  motivo.
 - **Atendimento** — O que se faz quando a consulta acontece: começa **a partir da consulta**, registra os
   procedimentos realizados e a evolução clínica e termina ao ser finalizado. A consulta é o horário; o
   atendimento é o que acontece nele.

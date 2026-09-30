@@ -53,4 +53,7 @@ Os termos (orçamento, parcela, baixa) estão em [[glossario]]; o fluxo do orça
 
 ## Implementado em
 
-TODO: PR que implementar (previsto em [[2026-09-30-plano-da-v1]]).
+- Conversão nas bordas e soma (`Centavos`, `formatarReais`, `paraCentavos`, `somarCentavos`):
+  [[2026-09-30-pr-025-tipos-do-dominio]], em `src/dominio/dinheiro.ts`; comportamento em [[Dinheiro]].
+- Parcelamento com distribuição do resto dos centavos: TODO: PR que implementar (item 7.5 do
+  [[2026-09-30-plano-da-v1]]).
