@@ -36,7 +36,7 @@ Apaga dado pessoal sensível (o consultório inteiro) sem volta: por isso o moda
 
 ## ⚠️ Armadilhas e aprendizados
 
-- Um teste que só confere «as chaves sumiram» passaria mesmo com a marca de semente de fora e a página vazia depois do reload. O teste decisivo roda `carregarSementes` duas vezes antes e uma depois de restaurar, e conta as chamadas do semeador ([[2026-09-30-restaurar-a-demonstracao-apaga-tambem-a-marca-de-semente]]).
+- Um teste que só confere «as chaves sumiram» passaria mesmo com a marca de semente de fora e a página vazia depois do reload. Dois testes cobrem isso, e os dois falham se a marca ficar: um roda `carregarSementes` duas vezes antes e uma depois de restaurar e conta as chamadas de um semeador; o outro simula o recarregamento (`vi.resetModules()` e os `SEMEADORES` de verdade) e confere que os pacientes e as consultas de exemplo voltam ([[2026-09-30-restaurar-a-demonstracao-apaga-tambem-a-marca-de-semente]]).
 - O teste das preferências do kit grava o tema e o colapso pelas funções do kit (`definirTema`, `setSidebarCollapsed`) e compara as chaves que elas escreveram, sem repetir o nome de nenhuma. O `afterEach` devolve os dois ao padrão, porque `setSidebarCollapsed` guarda o estado em módulo e não escreve se o valor não muda.
 - No teste de tela, `location` vira um objeto com `reload` dublê (`vi.stubGlobal`), como no cartão de backup.
 

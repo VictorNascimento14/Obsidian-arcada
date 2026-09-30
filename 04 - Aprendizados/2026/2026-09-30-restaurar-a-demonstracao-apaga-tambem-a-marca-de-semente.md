@@ -22,7 +22,8 @@ Origem: [[2026-09-30-pr-178-sistema-restaurar]].
 
 ## Como evitar o erro
 
-- Quem escreve «limpar os dados» como «apagar as coleções» esquece a marca. O teste cobre: depois de
-  `restaurarDemonstracao`, `carregarSementes` tem de chamar o semeador de novo.
+- Quem escreve «limpar os dados» como «apagar as coleções» esquece a marca. Os testes cobrem: depois de
+  `restaurarDemonstracao`, `carregarSementes` tem de chamar o semeador de novo, e, com os semeadores de verdade e o
+  recarregamento simulado (`vi.resetModules()`), os pacientes e as consultas de exemplo têm de voltar.
 - A semeadura vem **depois de recarregar**, não antes: as coleções guardam o estado em memória, e um semeador só
   planta em coleção vazia.
