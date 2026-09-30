@@ -7,7 +7,7 @@ pr: 74
 url: https://github.com/VictorNascimento14/Arcada/pull/74
 branch: feat/procedimentos-catalogo
 tags: [pr, procedimentos, catalogo]
-status: aberto
+status: merged
 ---
 
 # PR #74 — feat(procedimentos): plantar o catálogo padrão de procedimentos por especialidade
