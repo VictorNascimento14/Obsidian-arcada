@@ -13,7 +13,7 @@ tags: [funcionalidade, sistema, busca, atalho]
 
 Uma caixa de busca aberta por `Ctrl+K` (`⌘K` no Mac): digita-se o nome ou o telefone de um paciente e Enter abre a
 ficha. É o caminho mais curto até um paciente, a partir de qualquer tela em que o componente esteja montado. Hoje ele
-está montado só na tela [[Sistema]]; **falta montá-lo na casca do app** (seção «Montagem na casca»).
+está montado na raiz das rotas (`src/rotas.tsx`) e responde em qualquer tela (seção «Montagem na casca»).
 
 ## Onde está no código
 
@@ -41,11 +41,11 @@ está montado só na tela [[Sistema]]; **falta montá-lo na casca do app** (seç
   `listbox` de `option`, e um `role="status"` anuncia a dica, a contagem e a ausência de resultado.
 - **Cada abertura começa do zero**: sem termo nem seleção. Nada é gravado.
 
-## Montagem na casca (pendente)
+## Montagem na casca
 
 O registro de módulos (`import.meta.glob` dos `modulo.ts`) não tem ponto de encaixe global, e módulo não edita
-arquivo compartilhado. Falta montar `<BuscaGlobal />` **uma vez, dentro do roteador** (por exemplo, no `element` da
-rota raiz, em `src/rotas.tsx`, ao lado do `RailLayout`). Fora do roteador não funciona: ao lado do `ToastHost` em
+arquivo compartilhado: por isso `<BuscaGlobal />` foi montado **uma vez, dentro do roteador**, no `element` da rota
+raiz em `src/rotas.tsx` (PR #189). Fora do roteador não funciona: ao lado do `ToastHost` em
 `App.tsx` o componente chamaria `useNavigate` sem roteador. Com a busca na casca, a instância da tela `/sistema`
 segue inofensiva (só a primeira responde), e um botão de busca no cabeçalho pode chamar `abrirBusca()`.
 

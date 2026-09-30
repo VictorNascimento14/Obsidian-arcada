@@ -11,7 +11,7 @@ tags: [funcionalidade, anamnese, historico, versoes]
 
 ## O que é
 
-A lista das versões da anamnese de um paciente, no fim da aba **Anamnese** da [[Ficha do paciente]], e a leitura
+A lista das versões da anamnese de um paciente, no fim da aba **Anamnese** da [[FichaDoPaciente]], e a leitura
 das respostas de cada uma. Cada salvamento do [[FormularioAnamnese]] grava uma versão datada; aqui elas se
 consultam (item 2.5 do [[2026-09-30-plano-da-v1]]). O histórico é só de leitura: nada se edita nem se apaga.
 

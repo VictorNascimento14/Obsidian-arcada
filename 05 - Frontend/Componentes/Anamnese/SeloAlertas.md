@@ -44,7 +44,7 @@ Nenhuma: a pílula é estática e não é clicável.
 
 ## Pendências e limites conhecidos
 
-- **Falta encaixar no cartão da lista e no cabeçalho da ficha** ([[Lista de pacientes]], [[Ficha do paciente]]).
+- **Encaixado no cartão da lista e no cabeçalho da ficha** pelo PR #119 ([[ListaDePacientes]], [[FichaDoPaciente]]); o texto abaixo registra como a decisão foi tomada.
   O módulo de pacientes não foi editado, e o `Modulo` não tem ponto de encaixe para isso. Duas saídas: (1) o
   cartão e o cabeçalho importam `SeloAlertas` de `@/modulos/anamnese/SeloAlertas` e o colocam abaixo do
   telefone; (2) o `Modulo` ganha um campo `seloPaciente` que o `NAVEGACAO` reúne, e pacientes não importa

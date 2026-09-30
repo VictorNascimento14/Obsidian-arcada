@@ -51,6 +51,6 @@ O diálogo mostra dado de saúde de versões antigas, que continuam só no `loca
 - [[2026-09-30-plano-da-v1]]
 - [[HistoricoDeVersoes]]
 - [[FormularioAnamnese]]
-- [[Ficha do paciente]]
+- [[FichaDoPaciente]]
 - [[glossario]]
 - [[2026]] (changelog)

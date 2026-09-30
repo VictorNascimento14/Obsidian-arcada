@@ -61,7 +61,7 @@ Nenhuma.
 
 ## Limites conhecidos
 
-- **Nenhuma tela usa a peça ainda**: receituário, atestado e declaração (12.2 a 12.4) são os primeiros. O plano de
+- **Quem usa**: receituário (#154), atestado (#163) e declaração de comparecimento (#169). O plano de
   tratamento e o orçamento (3.11 e 7.7) também podem usá-la.
 - **A anamnese ainda tem o mecanismo próprio** (`FolhaDaAnamnese` + o efeito de `HistoricoDeVersoes`) e pode
   migrar para `useImpressao`. A folha dela assina o paciente, e `FolhaImpressa` traz o profissional no rodapé:

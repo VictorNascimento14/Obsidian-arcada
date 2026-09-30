@@ -51,8 +51,8 @@ O selo mostra dado de saúde (alergia, gestação, medicamento). Onde for encaix
 - [[2026-09-30-plano-da-v1]]
 - [[SeloAlertas]]
 - [[FormularioAnamnese]]
-- [[Lista de pacientes]]
-- [[Ficha do paciente]]
+- [[ListaDePacientes]]
+- [[FichaDoPaciente]]
 - [[2026-09-30-pr-092-anamnese-alertas]]
 - [[glossario]]
 - [[2026]] (changelog)

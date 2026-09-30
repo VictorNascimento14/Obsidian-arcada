@@ -46,7 +46,7 @@ Item 6.5 (Ativar e desativar) do [[2026-09-30-plano-da-v1]], sobre o cadastro e 
 
 ## 📎 Documentação afetada
 
-- [[Ativar e desativar procedimento]]
+- [[AtivarEDesativarProcedimento]]
 - [[CadastroDeProcedimento]]
 - [[ListaDeProcedimentos]]
 - [[2026-09-30-plano-da-v1]]

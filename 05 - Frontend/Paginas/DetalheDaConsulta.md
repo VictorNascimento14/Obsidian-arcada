@@ -39,7 +39,7 @@ confirmação pelo WhatsApp entram aqui nos itens seguintes da agenda.
 - **Ao clicar**: grava, avisa `Situação atualizada` (`<paciente> · <situação>`) e fecha; o foco volta ao cartão,
   que já mostra a situação nova. Se a gravação for recusada (a consulta mudou por baixo), o aviso diz `Não foi
   possível mudar a situação` com o motivo e o modal continua aberto.
-- **Não faz (ainda)**: cancelar (pede motivo), remarcar e confirmar por WhatsApp. Também não confere a data: dá
+- **Cancelar, remarcar e confirmar por WhatsApp** chegaram depois: ver [[RemarcarECancelarConsulta]] (#133) e [[ConfirmacaoPeloWhatsApp]] (#153). Também não confere a data: dá
   para registrar a falta de uma consulta futura.
 - **Consulta em cadeira removida** não aparece na grade do dia (a grade só desenha colunas de cadeira
   cadastrada), então não abre por ali.
