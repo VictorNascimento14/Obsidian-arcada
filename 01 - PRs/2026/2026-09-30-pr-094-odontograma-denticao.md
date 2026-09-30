@@ -7,7 +7,7 @@ pr: 94
 url: https://github.com/VictorNascimento14/Arcada/pull/94
 branch: feat/odontograma-denticao
 tags: [pr, odontograma, denticao, acessibilidade]
-status: aberto
+status: merged
 ---
 
 # PR #94 — feat(odontograma): alternar a dentição permanente, decídua e mista
