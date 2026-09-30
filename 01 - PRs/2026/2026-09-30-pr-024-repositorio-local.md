@@ -7,7 +7,7 @@ pr: 24
 url: https://github.com/VictorNascimento14/Arcada/pull/24
 branch: feat/repositorio-local
 tags: [pr, fundacao, dados]
-status: aberto
+status: merged
 ---
 
 # PR #24 — feat(dados): criar o repositório local com coleções versionadas
