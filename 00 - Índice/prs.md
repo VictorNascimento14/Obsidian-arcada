@@ -33,3 +33,4 @@ Toda mudança no repositório de código vira uma nota aqui. Mais recente embaix
 | #48 | [[2026-09-30-pr-048-dados-da-clinica]] — feat(clinica): cadastrar os dados da clínica |
 | #49 | [[2026-09-30-pr-049-tratamentos-plano]] — feat(tratamentos): calcular o subtotal, o total e os itens realizados do plano |
 | #51 | [[2026-09-30-pr-051-lista-de-pacientes]] — feat(pacientes): listar pacientes com busca por nome e telefone |
+| #52 | [[2026-09-30-pr-052-conflito-de-horario]] — feat(agenda): detectar conflito de horário por cadeira e profissional |
