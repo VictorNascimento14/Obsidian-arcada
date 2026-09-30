@@ -7,7 +7,7 @@ pr: 76
 url: https://github.com/VictorNascimento14/Arcada/pull/76
 branch: feat/pacientes-ficha
 tags: [pr, pacientes, ficha, abas]
-status: aberto
+status: merged
 ---
 
 # PR #76 — feat(pacientes): abrir a ficha do paciente com cabeçalho e abas
