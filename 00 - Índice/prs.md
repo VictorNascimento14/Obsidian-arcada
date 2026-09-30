@@ -74,3 +74,4 @@ Toda mudança no repositório de código vira uma nota aqui. Mais recente embaix
 | #127 | [[2026-09-30-pr-127-financeiro-parcelas]] — feat(financeiro): gerar as parcelas do orçamento aprovado |
 | #129 | [[2026-09-30-pr-129-ativar-e-desativar-procedimento]] — feat(procedimentos): ativar e desativar o procedimento |
 | #131 | [[2026-09-30-pr-131-anamnese-impressao]] — feat(anamnese): imprimir a anamnese com linha para assinatura do paciente |
+| #133 | [[2026-09-30-pr-133-agenda-remarcar]] — feat(agenda): remarcar e cancelar a consulta com motivo |
