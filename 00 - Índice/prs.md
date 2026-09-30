@@ -98,3 +98,4 @@ Toda mudança no repositório de código vira uma nota aqui. Mais recente embaix
 | #173 | [[2026-09-30-pr-173-ficha-aba-ativa]] — fix(pacientes): rolar a barra de abas da ficha até a aba ativa |
 | #176 | [[2026-09-30-pr-176-retornos-lista]] — feat(retornos): listar os retornos vencidos e os dos próximos 30 dias |
 | #177 | [[2026-09-30-pr-177-painel-indicadores]] — feat(painel): mostrar o faturamento recebido, as consultas e a taxa de faltas do mês |
+| #178 | [[2026-09-30-pr-178-sistema-restaurar]] — feat(sistema): restaurar os dados de demonstração apagando o que o navegador guarda |
