@@ -7,7 +7,7 @@ pr: 96
 url: https://github.com/VictorNascimento14/Arcada/pull/96
 branch: feat/procedimentos-cadastro
 tags: [pr, procedimentos, cadastro]
-status: aberto
+status: merged
 ---
 
 # PR #96 — feat(procedimentos): cadastrar e editar procedimento com preço, duração e exigência de dente e face
