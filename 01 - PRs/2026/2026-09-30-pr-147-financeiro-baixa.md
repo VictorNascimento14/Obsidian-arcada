@@ -7,7 +7,7 @@ pr: 147
 url: https://github.com/VictorNascimento14/Arcada/pull/147
 branch: feat/financeiro-baixa
 tags: [pr, financeiro, baixa, parcela, pagamento]
-status: aberto
+status: merged
 ---
 
 # PR #147 — feat(financeiro): dar baixa em uma parcela com a forma e a data do pagamento
