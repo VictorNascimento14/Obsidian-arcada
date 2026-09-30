@@ -7,7 +7,7 @@ pr: 59
 url: https://github.com/VictorNascimento14/Arcada/pull/59
 branch: feat/agenda-horarios-livres
 tags: [pr, agenda, horarios]
-status: aberto
+status: merged
 ---
 
 # PR #59 — feat(agenda): listar os horários livres do expediente
