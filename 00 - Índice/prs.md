@@ -91,3 +91,4 @@ Toda mudança no repositório de código vira uma nota aqui. Mais recente embaix
 | #159 | [[2026-09-30-pr-159-atendimento-odontograma]] — feat(atendimento): aplicar no odontograma a condição do procedimento realizado |
 | #163 | [[2026-09-30-pr-163-documentos-atestado]] — feat(documentos): imprimir o atestado com período e finalidade em texto livre |
 | #164 | [[2026-09-30-pr-164-periodontograma-indices]] — feat(periodontograma): mostrar os índices do exame em cartões |
+| #165 | [[2026-09-30-pr-165-retornos-regra]] — feat(retornos): calcular a data do retorno pelo último atendimento e pelo intervalo do procedimento |
