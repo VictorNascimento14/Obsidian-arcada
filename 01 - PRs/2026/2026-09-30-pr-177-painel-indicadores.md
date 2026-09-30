@@ -7,7 +7,7 @@ pr: 177
 url: https://github.com/VictorNascimento14/Arcada/pull/177
 branch: feat/painel-indicadores
 tags: [pr, painel, indicadores, financeiro, agenda]
-status: aberto
+status: merged
 ---
 
 # PR #177 — feat(painel): mostrar o faturamento recebido, as consultas e a taxa de faltas do mês
