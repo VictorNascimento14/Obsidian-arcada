@@ -7,7 +7,7 @@ pr: 48
 url: https://github.com/VictorNascimento14/Arcada/pull/48
 branch: feat/clinica-dados
 tags: [pr, clinica, cadastro]
-status: aberto
+status: merged
 ---
 
 # PR #48 — feat(clinica): cadastrar os dados da clínica
