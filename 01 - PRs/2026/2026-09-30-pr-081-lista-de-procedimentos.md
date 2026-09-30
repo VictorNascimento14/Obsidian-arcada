@@ -7,7 +7,7 @@ pr: 81
 url: https://github.com/VictorNascimento14/Arcada/pull/81
 branch: feat/procedimentos-lista
 tags: [pr, procedimentos, lista, busca]
-status: aberto
+status: merged
 ---
 
 # PR #81 — feat(procedimentos): listar procedimentos com busca por nome e código e filtro por especialidade
