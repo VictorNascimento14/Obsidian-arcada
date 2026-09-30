@@ -7,7 +7,7 @@ pr: 22
 url: https://github.com/VictorNascimento14/Arcada/pull/22
 branch: feat/registro-de-modulos
 tags: [pr, fundacao, modulos]
-status: aberto
+status: merged
 ---
 
 # PR #22 — feat(modulos): registrar módulos por pasta com import.meta.glob
