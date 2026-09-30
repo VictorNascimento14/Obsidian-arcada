@@ -7,7 +7,7 @@ pr: 135
 url: https://github.com/VictorNascimento14/Arcada/pull/135
 branch: feat/financeiro-a-receber
 tags: [pr, financeiro, parcela, situacao, lista]
-status: aberto
+status: merged
 ---
 
 # PR #135 — feat(financeiro): listar as contas a receber com a situação de cada parcela
