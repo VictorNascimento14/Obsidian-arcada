@@ -85,3 +85,4 @@ Toda mudança no repositório de código vira uma nota aqui. Mais recente embaix
 | #147 | [[2026-09-30-pr-147-financeiro-baixa]] — feat(financeiro): dar baixa em uma parcela com a forma e a data do pagamento |
 | #152 | [[2026-09-30-pr-152-atendimento-evolucao]] — feat(atendimento): registrar a evolução clínica da consulta |
 | #153 | [[2026-09-30-pr-153-agenda-whatsapp]] — feat(agenda): pedir a confirmação da consulta pelo WhatsApp |
+| #154 | [[2026-09-30-pr-154-documentos-receituario]] — feat(documentos): imprimir o receituário em texto livre com linha para assinatura |
