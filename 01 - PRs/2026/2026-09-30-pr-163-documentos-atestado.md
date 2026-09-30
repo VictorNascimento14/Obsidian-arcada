@@ -7,7 +7,7 @@ pr: 163
 url: https://github.com/VictorNascimento14/Arcada/pull/163
 branch: feat/documentos-atestado
 tags: [pr, documentos, atestado, impressao]
-status: aberto
+status: merged
 ---
 
 # PR #163 — feat(documentos): imprimir o atestado com período e finalidade em texto livre
