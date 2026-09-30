@@ -7,7 +7,7 @@ pr: 190
 url: https://github.com/VictorNascimento14/Arcada/pull/190
 branch: feat/painel-faturamento
 tags: [pr, painel, faturamento, financeiro]
-status: aberto
+status: merged
 ---
 
 # PR #190 — feat(painel): mostrar o faturamento por semana em barras
