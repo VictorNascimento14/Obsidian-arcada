@@ -7,7 +7,7 @@ pr: 17
 url: https://github.com/VictorNascimento14/Arcada/pull/17
 branch: ui/primitivos
 tags: [pr, fundacao, design]
-status: aberto
+status: merged
 ---
 
 # PR #17 — ui(primitivos): instalar os primitivos do vidro-orgânico
