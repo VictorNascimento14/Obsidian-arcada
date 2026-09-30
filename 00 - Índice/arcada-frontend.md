@@ -57,6 +57,7 @@ Um bloco por módulo, na numeração do [[2026-09-30-plano-da-v1]]; módulo sem 
 ### 7 · Plano de tratamento e orçamento
 
 - [[Plano de tratamento]] — `/planos/:planoId`: os itens do plano por dente e face, o orçamento e a situação; chega-se pela aba `Tratamentos` da ficha.
+- [[Planos em aberto]] — `/tratamentos`: os planos ainda em curso, de todos os pacientes, com a situação e o total.
 - [[TotaisDoPlano]] — o subtotal, o total do orçamento e os itens já realizados.
 - [[DescontoDoOrcamento]] — o desconto percentual ou em valor, guardado em centavos.
 - [[ParcelamentoDoOrcamento]] — o total dividido em parcelas que somam exatamente o total, com o vencimento de cada uma.
@@ -66,5 +67,6 @@ Um bloco por módulo, na numeração do [[2026-09-30-plano-da-v1]]; módulo sem 
 
 - [[Agenda do dia]] — `/agenda`: o dia da clínica por cadeira.
 - [[Marcar consulta]] — o modal da agenda que marca a consulta, barra conflito e feriado e sugere os horários livres.
+- [[Calendário do mês]] — o calendário do mês da agenda: mostra os dias que têm consulta e leva a qualquer um deles.
 
 ## Fluxos
