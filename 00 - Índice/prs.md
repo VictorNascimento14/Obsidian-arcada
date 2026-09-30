@@ -67,3 +67,4 @@ Toda mudança no repositório de código vira uma nota aqui. Mais recente embaix
 | #112 | [[2026-09-30-pr-112-odontograma-marcar]] — feat(odontograma): marcar condição por face e por dente na ficha do paciente |
 | #116 | [[2026-09-30-pr-116-modulo-ts]] — docs(claude): registrar módulo em modulo.ts, que é o que o registro lê |
 | #118 | [[2026-09-30-pr-118-agenda-situacao-tela]] — feat(agenda): mudar a situação da consulta pelos botões do detalhe |
+| #119 | [[2026-09-30-pr-119-alertas-do-paciente]] — feat(pacientes): mostrar os alertas da anamnese no cartão e na ficha |
