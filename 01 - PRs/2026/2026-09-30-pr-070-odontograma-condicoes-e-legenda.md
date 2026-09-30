@@ -7,7 +7,7 @@ pr: 70
 url: https://github.com/VictorNascimento14/Arcada/pull/70
 branch: feat/odontograma-condicoes
 tags: [pr, odontograma, condicoes]
-status: aberto
+status: merged
 ---
 
 # PR #70 — feat(odontograma): listar as condições do odontograma e a legenda
