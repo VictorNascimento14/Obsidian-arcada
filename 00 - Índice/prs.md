@@ -14,3 +14,4 @@ Toda mudança no repositório de código vira uma nota aqui. Mais recente embaix
 | #14 | [[2026-09-30-pr-014-testes]] — chore(test): rodar Vitest com jsdom e Testing Library |
 | #15 | [[2026-09-30-pr-015-ci]] — chore(ci): rodar lint, type-check, test e build e exigir o link do cofre no PR |
 | #16 | [[2026-09-30-pr-016-fundacao-visual]] — ui(fundacao): instalar a fundação do sistema vidro-orgânico |
+| #17 | [[2026-09-30-pr-017-primitivos]] — ui(primitivos): instalar os primitivos do vidro-orgânico |
