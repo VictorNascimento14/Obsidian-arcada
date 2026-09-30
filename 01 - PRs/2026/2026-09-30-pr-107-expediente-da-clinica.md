@@ -7,7 +7,7 @@ pr: 107
 url: https://github.com/VictorNascimento14/Arcada/pull/107
 branch: feat/clinica-expediente
 tags: [pr, clinica, expediente]
-status: aberto
+status: merged
 ---
 
 # PR #107 — feat(clinica): editar o expediente por dia da semana
