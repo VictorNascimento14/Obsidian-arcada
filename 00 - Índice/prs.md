@@ -58,3 +58,4 @@ Toda mudança no repositório de código vira uma nota aqui. Mais recente embaix
 | #94 | [[2026-09-30-pr-094-odontograma-denticao]] — feat(odontograma): alternar a dentição permanente, decídua e mista |
 | #96 | [[2026-09-30-pr-096-cadastro-de-procedimento]] — feat(procedimentos): cadastrar e editar procedimento com preço, duração e exigência de dente e face |
 | #97 | [[2026-09-30-pr-097-tratamentos-itens]] — feat(tratamentos): adicionar itens ao plano por dente e face |
+| #102 | [[2026-09-30-pr-102-agenda-calendario]] — feat(agenda): mostrar o calendário do mês com os dias que têm consulta |
