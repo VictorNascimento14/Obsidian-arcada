@@ -7,7 +7,7 @@ pr: 69
 url: https://github.com/VictorNascimento14/Arcada/pull/69
 branch: feat/clinica-cadeiras
 tags: [pr, clinica, cadeiras]
-status: aberto
+status: merged
 ---
 
 # PR #69 — feat(clinica): cadastrar as cadeiras
