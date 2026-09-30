@@ -7,7 +7,7 @@ pr: 93
 url: https://github.com/VictorNascimento14/Arcada/pull/93
 branch: feat/agenda-marcar
 tags: [pr, agenda, marcar-consulta, modal]
-status: aberto
+status: merged
 ---
 
 # PR #93 — feat(agenda): marcar consulta bloqueando conflito e feriado
