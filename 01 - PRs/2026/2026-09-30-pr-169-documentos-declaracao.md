@@ -7,7 +7,7 @@ pr: 169
 url: https://github.com/VictorNascimento14/Arcada/pull/169
 branch: feat/documentos-declaracao
 tags: [pr, documentos, declaracao, impressao]
-status: aberto
+status: merged
 ---
 
 # PR #169 — feat(documentos): imprimir a declaração de comparecimento com o horário da consulta
