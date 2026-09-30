@@ -7,7 +7,7 @@ pr: 122
 url: https://github.com/VictorNascimento14/Arcada/pull/122
 branch: feat/anamnese-historico
 tags: [pr, anamnese, historico, versoes]
-status: aberto
+status: merged
 ---
 
 # PR #122 — feat(anamnese): listar as versões da anamnese e abrir as respostas de cada uma
