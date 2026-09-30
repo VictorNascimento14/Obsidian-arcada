@@ -7,7 +7,7 @@ pr: 42
 url: https://github.com/VictorNascimento14/Arcada/pull/42
 branch: docs/exemplo-cro
 tags: [pr, fundacao, docs]
-status: aberto
+status: merged
 ---
 
 # PR #42 — docs(claude): usar um CRO válido como exemplo estável
