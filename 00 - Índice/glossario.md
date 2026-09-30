@@ -28,6 +28,9 @@ que espelham estes termos, em [[TiposDoDominio]].
   hábitos e histórico odontológico — e 19 perguntas: as de sim ou não (algumas com um campo de detalhe, como
   "Qual?") e as de texto. Toda pergunta de sim ou não precisa de resposta para gravar: "não respondeu" não é
   "não" ([[2026-09-30-pr-082-anamnese-questionario]]).
+- **Versão (da anamnese)** — Cada salvamento do formulário grava uma versão nova da anamnese, datada, sem apagar
+  a anterior: a mais recente é a **vigente**, e as outras ficam no histórico, só para leitura. O formulário abre
+  com as respostas da vigente, e os alertas valem só para ela ([[FormularioAnamnese]], [[HistoricoDeVersoes]]).
 - **Alerta (da anamnese)** — Aviso derivado de uma resposta da anamnese, mostrado num selo no cartão e na
   ficha do paciente. O alerta **só repete o que foi respondido** ("marcou alergia a …"); não decide
   tratamento, dose nem contraindicação.
@@ -72,8 +75,7 @@ Cada dente tem **cinco faces** no desenho do Arcada: V, M e D, mais **L ou P** (
 ### Condição
 
 Estado registrado para um dente, ou para uma face dele, no odontograma. A v1 parte de nove condições:
-cárie, restauração e selante se marcam numa face; as outras seis valem no dente inteiro. Cada uma tem uma
-cor na legenda ([[CondicoesELegenda]]); os símbolos da legenda são definidos no módulo 3 (`<A DEFINIR>`).
+cárie, restauração e selante se marcam numa face; as outras seis valem no dente inteiro. Cada uma tem uma cor na legenda ([[CondicoesELegenda]]) e um **símbolo** só seu, que aparece no dente, na barra de escolha e na legenda, para a cor não ser o único sinal; a tabela dos símbolos está em [[MarcarCondicoes]].
 
 | Condição | O que significa |
 |---|---|
@@ -143,7 +145,7 @@ cor na legenda ([[CondicoesELegenda]]); os símbolos da legenda são definidos n
   mostra os horários livres.
 - **Consulta** — Um horário marcado na agenda: um paciente, um profissional, uma cadeira, um dia e uma
   hora. Tem uma situação — **agendada**, **confirmada**, **em atendimento**, **concluída**, **faltou** (o
-  paciente não veio) ou **cancelada** — e pode ser remarcada ou cancelada, com motivo. O caminho é agendada →
+  paciente não veio) ou **cancelada** — e pode ser remarcada ou cancelada, com motivo. **Remarcar** regrava a mesma consulta, sem criar outra, e devolve a **confirmada** a **agendada**: o paciente precisa confirmar o novo horário ([[RemarcarECancelarConsulta]]). O caminho é agendada →
   confirmada → em atendimento → concluída, e a agendada também entra direto em atendimento (quem chega sem
   ter confirmado é atendido do mesmo jeito); da agendada e da confirmada a consulta ainda pode terminar em
   faltou ou cancelada. Concluída, faltou e cancelada são o fim: a consulta não volta nem muda de novo
