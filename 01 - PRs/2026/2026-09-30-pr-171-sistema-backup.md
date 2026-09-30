@@ -7,7 +7,7 @@ pr: 171
 url: https://github.com/VictorNascimento14/Arcada/pull/171
 branch: feat/sistema-backup
 tags: [pr, sistema, backup, dados, lgpd]
-status: aberto
+status: merged
 ---
 
 # PR #171 — feat(sistema): exportar e importar o backup dos dados do navegador
