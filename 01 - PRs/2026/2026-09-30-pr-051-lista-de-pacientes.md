@@ -7,7 +7,7 @@ pr: 51
 url: https://github.com/VictorNascimento14/Arcada/pull/51
 branch: feat/pacientes-lista
 tags: [pr, pacientes, lista, busca]
-status: aberto
+status: merged
 ---
 
 # PR #51 — feat(pacientes): listar pacientes com busca por nome e telefone
