@@ -35,3 +35,4 @@ Toda mudança no repositório de código vira uma nota aqui. Mais recente embaix
 | #51 | [[2026-09-30-pr-051-lista-de-pacientes]] — feat(pacientes): listar pacientes com busca por nome e telefone |
 | #52 | [[2026-09-30-pr-052-conflito-de-horario]] — feat(agenda): detectar conflito de horário por cadeira e profissional |
 | #53 | [[2026-09-30-pr-053-odontograma-notacao-fdi]] — feat(odontograma): definir a notação FDI com dentes, quadrantes e tipos |
+| #55 | [[2026-09-30-pr-055-tratamentos-parcelas]] — feat(tratamentos): parcelar o orçamento distribuindo o resto dos centavos |
