@@ -7,7 +7,7 @@ pr: 157
 url: https://github.com/VictorNascimento14/Arcada/pull/157
 branch: feat/financeiro-inadimplencia
 tags: [pr, financeiro, inadimplencia, parcela]
-status: aberto
+status: merged
 ---
 
 # PR #157 — feat(financeiro): calcular a inadimplência por paciente com os dias de atraso e o total vencido
