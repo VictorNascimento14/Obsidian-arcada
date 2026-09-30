@@ -7,7 +7,7 @@ pr: 88
 url: https://github.com/VictorNascimento14/Arcada/pull/88
 branch: feat/perio-exame
 tags: [pr, periodontograma, exame]
-status: aberto
+status: merged
 ---
 
 # PR #88 — feat(periodontograma): modelar o exame de seis sítios e calcular os índices
