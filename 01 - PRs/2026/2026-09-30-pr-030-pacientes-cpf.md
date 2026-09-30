@@ -7,7 +7,7 @@ pr: 30
 url: https://github.com/VictorNascimento14/Arcada/pull/30
 branch: feat/pacientes-cpf
 tags: [pr, pacientes, cpf, lgpd]
-status: aberto
+status: merged
 ---
 
 # PR #30 — feat(pacientes): validar e mascarar CPF com dígitos verificadores
