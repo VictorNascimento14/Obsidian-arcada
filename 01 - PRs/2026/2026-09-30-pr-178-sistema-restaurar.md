@@ -7,7 +7,7 @@ pr: 178
 url: https://github.com/VictorNascimento14/Arcada/pull/178
 branch: feat/sistema-restaurar
 tags: [pr, sistema, demonstracao, dados, sementes]
-status: aberto
+status: merged
 ---
 
 # PR #178 — feat(sistema): restaurar os dados de demonstração apagando o que o navegador guarda
