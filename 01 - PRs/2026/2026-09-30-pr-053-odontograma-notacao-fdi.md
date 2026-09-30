@@ -7,7 +7,7 @@ pr: 53
 url: https://github.com/VictorNascimento14/Arcada/pull/53
 branch: feat/odontograma-fdi
 tags: [pr, odontograma, dominio]
-status: aberto
+status: merged
 ---
 
 # PR #53 — feat(odontograma): definir a notação FDI com dentes, quadrantes e tipos
