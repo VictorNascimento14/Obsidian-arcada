@@ -41,10 +41,11 @@ abas da ficha do paciente —, todo PR de módulo edita o mesmo arquivo, e o con
 
 - **A ordem deixa de ser implícita.** O `import.meta.glob` não dá ordem de produto — ela seguiria os
   nomes das pastas —, então cada módulo declara `ordem`. É o custo da decisão. Dois módulos podem
-  declarar o mesmo valor; como o registro desempata é `TODO: confirmar no PR do registro de módulos`.
+  declarar o mesmo valor; o registro desempata pela `chave` do módulo
+  ([[2026-09-30-pr-022-registro-de-modulos]]).
 - **Falha silenciosa.** Pasta sem `modulo.tsx`, ou cujo arquivo não exporta `modulo`, simplesmente não
-  aparece. Um teste do registro que compare as pastas com os módulos achados fecha esse buraco
-  (`TODO: confirmar no PR do registro de módulos`).
+  aparece. Um teste do registro que compare as pastas com os módulos achados fecha esse buraco; o PR do
+  registro não o trouxe (TODO: teste que compare as pastas de `src/modulos/` com os módulos achados).
 - **O caminho vira contrato.** O nome e o lugar do arquivo (`src/modulos/<modulo>/modulo.tsx`) passam a
   fazer parte da convenção do projeto.
 
@@ -54,4 +55,12 @@ sempre por `src/dados/`, nunca dentro do módulo).
 
 ## Implementado em
 
-TODO: PR que implementar (previsto em [[2026-09-30-plano-da-v1]]).
+- O registro: `src/modulos/index.ts` acha todo `src/modulos/<modulo>/modulo.ts` por `import.meta.glob` (com
+  `eager`), e `montarNavegacao` monta a coluna, as rotas, a barra do celular e as abas da ficha do paciente:
+  [[2026-09-30-pr-022-registro-de-modulos]]. **Divergência do texto da decisão:** o arquivo é `modulo.ts`, e
+  não `modulo.tsx` — sem JSX, com o `Component` na própria rota, para exportar só um objeto e não brigar com a
+  regra de fast refresh.
+- Os semeadores dos módulos são achados do mesmo jeito, por `import.meta.glob("../modulos/*/sementes.ts")` em
+  `src/dados/semeadores.ts`: módulo novo traz os seus dados de demonstração sem editar arquivo do núcleo:
+  [[2026-09-30-pr-035-colecoes-e-sementes]].
+- Os ícones que o item da coluna usa (`Glyph`), precondição do registro: [[2026-09-30-pr-020-icones]].

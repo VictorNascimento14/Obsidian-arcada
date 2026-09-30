@@ -61,5 +61,9 @@ odontograma; ver [[2026-09-30-plano-da-v1]].
 
 - Os tipos `NumeroDente` e `Face`: [[2026-09-30-pr-025-tipos-do-dominio]], em `src/dominio/odontologia.ts`; visão geral em
   [[TiposDoDominio]].
-- A regra da notação (números que existem, quadrante e dentição): TODO: PR que implementar (item 3.1 do
-  [[2026-09-30-plano-da-v1]]).
+- A regra da notação (números que existem, quadrante, dentição, arcada, lado, tipo e nome do dente), com
+  teste: [[2026-09-30-pr-053-odontograma-notacao-fdi]], em `src/dominio/fdi.ts`; comportamento em
+  [[NotacaoFdi]].
+- As faces de cada dente (`facesDoDente`, `faceValida` e `nomeFace`), a decisão 3:
+  [[2026-09-30-pr-065-odontograma-faces-por-dente]], também em `src/dominio/fdi.ts`; comportamento em
+  [[FacesDoDente]].

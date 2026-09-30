@@ -62,4 +62,12 @@ recebe o item de cada módulo).
 
 ## Implementado em
 
-TODO: PR que implementar (previsto em [[2026-09-30-plano-da-v1]]).
+- A fundação (`src/ui/index.css`, `tailwind.config.ts` e `postcss.config.ts`), copiada sem alteração:
+  [[2026-09-30-pr-016-fundacao-visual]].
+- Os primitivos (`src/ui/base/`, `src/ui/lib/` e `src/ui/hooks/`), copiados já com as correções do `TextField` e
+  do `Calendar` que voltaram ao kit por PR lá (Design-moderno#3 e #4) — a decisão 4 em prática:
+  [[2026-09-30-pr-017-primitivos]].
+- A casca (`src/ui/shell/`: coluna lateral, cabeçalho e barra do celular), montada pelo roteador com o
+  `basename` do deploy: [[2026-09-30-pr-018-casca]]; comportamento em [[RailLayout]].
+- Cinco ícones de navegação acrescentados ao `Glyph`: [[2026-09-30-pr-020-icones]]. É extensão deliberada da
+  casca, não ajuste de tela: o próprio kit documenta que um ícone novo é um `path` a mais.

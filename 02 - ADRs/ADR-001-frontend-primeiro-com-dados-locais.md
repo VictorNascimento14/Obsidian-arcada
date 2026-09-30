@@ -64,4 +64,9 @@ autenticação, base legal e armazenamento.
 
 ## Implementado em
 
-TODO: PR que implementar (previsto em [[2026-09-30-plano-da-v1]]).
+- O repositório local — `criarColecao` (coleções tipadas sobre o `localStorage`, com versão de esquema), o
+  hook `useColecao` e `novoId`, tudo em `src/dados/`, a fronteira que a decisão pede:
+  [[2026-09-30-pr-024-repositorio-local]]; comportamento em [[RepositorioLocal]].
+- As oito coleções do núcleo (`src/dados/colecoes.ts`) e os dados de demonstração fictícios — `Paciente Exemplo`,
+  `Dra. Exemplo`, nenhum CPF —, plantados uma vez por versão e só em coleção vazia (`src/dados/sementes.ts`,
+  chamada em `src/main.tsx` antes do primeiro render): [[2026-09-30-pr-035-colecoes-e-sementes]].
