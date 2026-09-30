@@ -7,7 +7,7 @@ pr: 33
 url: https://github.com/VictorNascimento14/Arcada/pull/33
 branch: feat/pacientes-idade
 tags: [pr, pacientes, idade]
-status: aberto
+status: merged
 ---
 
 # PR #33 — feat(pacientes): calcular a idade e a faixa etária pela data de nascimento
