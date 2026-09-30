@@ -7,7 +7,7 @@ pr: 31
 url: https://github.com/VictorNascimento14/Arcada/pull/31
 branch: feat/agenda-feriados
 tags: [pr, agenda, feriados]
-status: aberto
+status: merged
 ---
 
 # PR #31 — feat(agenda): calcular os feriados nacionais a partir da Páscoa
