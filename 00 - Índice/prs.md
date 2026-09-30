@@ -55,3 +55,4 @@ Toda mudança no repositório de código vira uma nota aqui. Mais recente embaix
 | #89 | [[2026-09-30-pr-089-odontograma-arcadas]] — feat(odontograma): desenhar as arcadas superior e inferior |
 | #92 | [[2026-09-30-pr-092-anamnese-alertas]] — feat(anamnese): derivar os alertas das respostas da anamnese |
 | #93 | [[2026-09-30-pr-093-agenda-marcar]] — feat(agenda): marcar consulta bloqueando conflito e feriado |
+| #94 | [[2026-09-30-pr-094-odontograma-denticao]] — feat(odontograma): alternar a dentição permanente, decídua e mista |
