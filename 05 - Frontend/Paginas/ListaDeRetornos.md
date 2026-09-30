@@ -12,17 +12,22 @@ tags: [funcionalidade, retornos, lista]
 ## O que é
 
 A tela `/retornos`: quem deve voltar ao consultório. São dois cartões — **Vencidos** (o retorno já passou) e **A vencer
-nos próximos 30 dias** —, cada um com os pacientes do prazo mais antigo ao mais próximo. O termo **Retorno** está no
+nos próximos 30 dias** —, cada um com os pacientes do prazo mais antigo ao mais próximo, e um terceiro, **Dispensados**, que só aparece quando alguém foi dispensado. O termo **Retorno** está no
 [[glossario]]; a conta da data de cada paciente é a regra de [[2026-09-30-retorno-conta-do-ultimo-atendimento]].
 
 ## Onde está no código
 
 - `src/modulos/retornos/modulo.ts` — a rota `/retornos` e o item **Retornos** da coluna (grupo Consultório, ordem 30,
   ícone `refresh`), sem aba na ficha.
-- `PaginaRetornos.tsx` — a moldura da tela. `ListaDeRetornos.tsx` — os dois cartões.
-- `lista.ts` — `retornosPendentes(pacientes, consultas, planos, hoje)`: quem entra, a situação e a ordem.
+- `PaginaRetornos.tsx` — a moldura da tela. `ListaDeRetornos.tsx` — os cartões: os dois prazos e, se houver, os dispensados.
+- `lista.ts` — `retornosPendentes`: quem entra, a situação e a ordem, já com o que foi adiado ou dispensado;
+  `retornosDispensados`: o cartão dos dispensados.
 - `regra.ts` — `retornoDoPaciente`: a data do retorno de cada paciente.
 - `sementes.ts` — quatro pacientes de demonstração, com atendimentos antigos.
+- `mensagem.ts` e `ContatoDoRetorno.tsx` — a mensagem de retorno e os dois links de cada linha
+  ([[ContatoDoRetorno]]).
+- `dados.ts`, `estado.ts`, `AdiarOuDispensar.tsx` e `Dispensados.tsx` — o estado de adiar e dispensar de cada
+  paciente, os botões da linha e o cartão dos dispensados ([[AdiarEDispensarRetorno]]).
 
 ## Comportamento
 
@@ -33,9 +38,13 @@ nos próximos 30 dias** —, cada um com os pacientes do prazo mais antigo ao ma
 - **Ordem**: pelo dia previsto — o vencido há mais tempo vem primeiro — e, no mesmo dia, pelo nome.
 - **Cada linha**: avatar, o nome (link para a [[FichaDoPaciente]]), `Último atendimento em 16/02/2026 · retorno
   previsto em 16/08/2026` e a pílula do prazo: `Vencido há 45 dias`, `Vence hoje` ou `Vence em 9 dias`. A lista não
-  mostra o procedimento: é dado de saúde, e quem chama o paciente não precisa dele.
+  mostra o procedimento: é dado de saúde, e quem chama o paciente não precisa dele. Abaixo vêm os links **WhatsApp** e **Marcar consulta** ([[ContatoDoRetorno]]) e os botões **Adiar** e **Dispensar** ([[AdiarEDispensarRetorno]]); o retorno adiado diz `retorno adiado para 15/10/2026`.
 - **Estados vazios**: `Nenhum retorno vencido.` e `Nenhum retorno a vencer nos próximos 30 dias.`
 - **O dia de hoje** é o da última renderização (`diaISO`).
+- **Adiar e dispensar**: adiar empurra o retorno por N dias; dispensar o tira da lista e pede o motivo. Quem foi
+  dispensado aparece no cartão **Dispensados**, de onde se reativa. O estado vale só para o retorno em curso
+  ([[2026-09-30-adiar-e-dispensar-valem-so-para-o-retorno-em-curso]]). O detalhe está em
+  [[AdiarEDispensarRetorno]].
 - **Quem já tem consulta marcada** continua na lista até ser atendido, porque a regra olha só o que já foi feito.
 
 ## Movimento e micro-interações
@@ -45,3 +54,5 @@ Nenhum além do kit: a tela só usa os cartões de vidro, sem animação própri
 ## Histórico de mudanças
 
 - [[2026-09-30-pr-176-retornos-lista]] — a tela, a regra da lista e as sementes de demonstração.
+- [[2026-09-30-pr-181-retornos-contato]] — os links **WhatsApp** e **Marcar consulta** em cada linha.
+- [[2026-09-30-pr-187-retornos-adiar]] — adiar, dispensar e reativar, e o cartão **Dispensados**.
