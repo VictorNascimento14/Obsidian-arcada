@@ -7,7 +7,7 @@ pr: 182
 url: https://github.com/VictorNascimento14/Arcada/pull/182
 branch: feat/painel-em-aberto
 tags: [pr, painel, tratamentos, orcamento]
-status: aberto
+status: merged
 ---
 
 # PR #182 — feat(painel): mostrar a contagem e o valor dos orçamentos e tratamentos em aberto
