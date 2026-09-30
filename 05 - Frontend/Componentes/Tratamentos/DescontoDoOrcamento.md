@@ -42,4 +42,4 @@ desconto em centavos. Não tem tela — o orçamento e a impressão a usam. Part
 ## Histórico de mudanças
 
 - [[2026-09-30-pr-068-tratamentos-desconto]] — `aplicarDesconto`, com o percentual arredondado em inteiros e o limite no subtotal.
-- [[2026-09-30-pr-097-tratamentos-itens]] — a tela do plano ([[Plano de tratamento]]) aplica o desconto por `aplicarDesconto`, e `lerDesconto` lê o campo.
+- [[2026-09-30-pr-097-tratamentos-itens]] — a tela do plano ([[PlanoDeTratamento]]) aplica o desconto por `aplicarDesconto`, e `lerDesconto` lê o campo.

@@ -55,8 +55,8 @@ O formulário coleta dado pessoal: nome, nascimento, CPF, telefone, e-mail e uma
 
 ## 📎 Documentação afetada
 
-- [[Cadastro de paciente]]
-- [[Lista de pacientes]]
+- [[CadastroDePaciente]]
+- [[ListaDePacientes]]
 - [[CpfDoPaciente]]
 - [[ContatoRapido]]
 - [[TiposDoDominio]]

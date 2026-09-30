@@ -28,9 +28,9 @@ Um bloco por módulo, na numeração do [[2026-09-30-plano-da-v1]]; módulo sem 
 
 ### 1 · Pacientes
 
-- [[Lista de pacientes]] — `/pacientes`: os pacientes em cartões, com busca por nome e telefone.
-- [[Cadastro de paciente]] — `/pacientes/novo`: o formulário do paciente novo, com CPF validado.
-- [[Ficha do paciente]] — `/pacientes/:id`: o paciente, como falar com ele e, em abas, o que cada módulo guarda sobre ele.
+- [[ListaDePacientes]] — `/pacientes`: os pacientes em cartões, com busca por nome e telefone.
+- [[CadastroDePaciente]] — `/pacientes/novo`: o formulário do paciente novo, com CPF validado.
+- [[FichaDoPaciente]] — `/pacientes/:id`: o paciente, como falar com ele e, em abas, o que cada módulo guarda sobre ele.
 - [[CpfDoPaciente]] — as regras puras de CPF: limpar, mascarar e validar.
 - [[IdadeEFaixaEtaria]] — a idade e a faixa etária pela data de nascimento.
 - [[ContatoRapido]] — os links de WhatsApp e de ligação do paciente.
@@ -50,14 +50,14 @@ Um bloco por módulo, na numeração do [[2026-09-30-plano-da-v1]]; módulo sem 
 
 ### 6 · Procedimentos
 
-- [[Lista de procedimentos]] — `/procedimentos`: a tabela de procedimentos, com busca por nome e código e filtro por especialidade.
+- [[ListaDeProcedimentos]] — `/procedimentos`: a tabela de procedimentos, com busca por nome e código e filtro por especialidade.
 - [[CadastroDeProcedimento]] — o modal que cadastra e edita um procedimento, aberto pela lista.
 - [[CatalogoPadrao]] — os 32 procedimentos comuns, em oito especialidades, que a clínica recebe na primeira abertura.
 
 ### 7 · Plano de tratamento e orçamento
 
-- [[Plano de tratamento]] — `/planos/:planoId`: os itens do plano por dente e face, o orçamento e a situação; chega-se pela aba `Tratamentos` da ficha.
-- [[Planos em aberto]] — `/tratamentos`: os planos ainda em curso, de todos os pacientes, com a situação e o total.
+- [[PlanoDeTratamento]] — `/planos/:planoId`: os itens do plano por dente e face, o orçamento e a situação; chega-se pela aba `Tratamentos` da ficha.
+- [[PlanosEmAberto]] — `/tratamentos`: os planos ainda em curso, de todos os pacientes, com a situação e o total.
 - [[TotaisDoPlano]] — o subtotal, o total do orçamento e os itens já realizados.
 - [[DescontoDoOrcamento]] — o desconto percentual ou em valor, guardado em centavos.
 - [[ParcelamentoDoOrcamento]] — o total dividido em parcelas que somam exatamente o total, com o vencimento de cada uma.
@@ -65,8 +65,8 @@ Um bloco por módulo, na numeração do [[2026-09-30-plano-da-v1]]; módulo sem 
 
 ### 8 · Agenda
 
-- [[Agenda do dia]] — `/agenda`: o dia da clínica por cadeira.
-- [[Marcar consulta]] — o modal da agenda que marca a consulta, barra conflito e feriado e sugere os horários livres.
-- [[Calendário do mês]] — o calendário do mês da agenda: mostra os dias que têm consulta e leva a qualquer um deles.
+- [[AgendaDoDia]] — `/agenda`: o dia da clínica por cadeira.
+- [[MarcarConsulta]] — o modal da agenda que marca a consulta, barra conflito e feriado e sugere os horários livres.
+- [[CalendarioDoMes]] — o calendário do mês da agenda: mostra os dias que têm consulta e leva a qualquer um deles.
 
 ## Fluxos

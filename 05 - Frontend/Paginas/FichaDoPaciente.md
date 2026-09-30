@@ -12,7 +12,7 @@ tags: [funcionalidade, pacientes, ficha, abas]
 ## O que é
 
 A tela de um paciente: quem é (nome, idade, convênio, telefone), como falar com ele e, em abas, tudo o que
-cada módulo guarda sobre ele. A [[Lista de pacientes]] e o [[Cadastro de paciente]] levam a ela.
+cada módulo guarda sobre ele. A [[ListaDePacientes]] e o [[CadastroDePaciente]] levam a ela.
 
 ## Onde está no código
 
@@ -32,7 +32,7 @@ cada módulo guarda sobre ele. A [[Lista de pacientes]] e o [[Cadastro de pacien
   paciente cadastrado com telefone de DDD válido.
 - **Abas**: `Dados` é sempre a primeira; depois vêm as que os módulos registram em `abaPaciente` no
   `modulo.ts`, por `ordem` (no empate, pela `chave`). Cada uma recebe o `pacienteId`. Só a aba ativa é
-  montada. Uma delas é `Tratamentos` (ordem 40), do módulo de tratamentos ([[Plano de tratamento]]).
+  montada. Uma delas é `Tratamentos` (ordem 40), do módulo de tratamentos ([[PlanoDeTratamento]]).
 - **Aba `Dados`**: nascimento (`DD/MM/AAAA`), CPF (com máscara), telefone, e-mail, convênio e observações; o
   que não foi preenchido aparece como `Não informado`. As observações mantêm as quebras de linha.
 - **Teclado** (padrão WAI-ARIA de abas): ← e → trocam de aba e movem o foco, dando a volta nas pontas; Home

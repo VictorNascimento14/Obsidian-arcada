@@ -14,7 +14,7 @@ status: merged
 
 ## 🎯 Contexto
 
-Item 8.5 do [[2026-09-30-plano-da-v1]] (módulo 8 · Agenda). Apoia-se na visão do dia (8.3, [[Agenda do dia]]) e usa as regras puras que já estão na `main`: conflito (8.1), horários livres (8.2) e feriados (8.10). Fecha a issue #84.
+Item 8.5 do [[2026-09-30-plano-da-v1]] (módulo 8 · Agenda). Apoia-se na visão do dia (8.3, [[AgendaDoDia]]) e usa as regras puras que já estão na `main`: conflito (8.1), horários livres (8.2) e feriados (8.10). Fecha a issue #84.
 
 ## 🔧 Mudanças
 
@@ -54,6 +54,6 @@ O modal lista nomes de pacientes e a mensagem de conflito cita o paciente da con
 
 ## 📎 Documentação afetada
 
-- [[Marcar consulta]]
-- [[Agenda do dia]]
+- [[MarcarConsulta]]
+- [[AgendaDoDia]]
 - [[2026]] (changelog)

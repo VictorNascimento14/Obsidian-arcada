@@ -45,8 +45,8 @@ Item 7.9 do [[2026-09-30-plano-da-v1]] (módulo 7 · Plano de tratamento e orça
 
 ## 📎 Documentação afetada
 
-- [[Planos em aberto]]
-- [[Plano de tratamento]]
+- [[PlanosEmAberto]]
+- [[PlanoDeTratamento]]
 - [[SituacaoDoPlano]]
 - [[TotaisDoPlano]]
 - [[2026]] (changelog)

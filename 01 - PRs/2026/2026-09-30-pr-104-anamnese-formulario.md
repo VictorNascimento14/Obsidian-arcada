@@ -50,6 +50,6 @@ A anamnese é dado de saúde, sensível pela LGPD. Fica só no `localStorage` do
 
 - [[2026-09-30-plano-da-v1]]
 - [[FormularioAnamnese]]
-- [[Ficha do paciente]]
+- [[FichaDoPaciente]]
 - [[glossario]]
 - [[2026]] (changelog)

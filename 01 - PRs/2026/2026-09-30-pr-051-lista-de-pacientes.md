@@ -53,6 +53,6 @@ A lista mostra nome, idade, convênio e telefone do paciente — dado pessoal �
 
 ## 📎 Documentação afetada
 
-- [[Lista de pacientes]]
+- [[ListaDePacientes]]
 - [[IdadeEFaixaEtaria]]
 - [[2026]] (changelog)

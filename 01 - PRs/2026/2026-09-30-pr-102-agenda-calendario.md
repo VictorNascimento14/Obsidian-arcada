@@ -14,7 +14,7 @@ status: merged
 
 ## 🎯 Contexto
 
-Item 8.8 do [[2026-09-30-plano-da-v1]] (módulo 8 · Agenda). Apoia-se na visão do dia ([[Agenda do dia]]) e no marcar consulta ([[Marcar consulta]]), que já estão na `main`. Fecha a issue #98.
+Item 8.8 do [[2026-09-30-plano-da-v1]] (módulo 8 · Agenda). Apoia-se na visão do dia ([[AgendaDoDia]]) e no marcar consulta ([[MarcarConsulta]]), que já estão na `main`. Fecha a issue #98.
 
 ## 🔧 Mudanças
 
@@ -45,7 +45,7 @@ Item 8.8 do [[2026-09-30-plano-da-v1]] (módulo 8 · Agenda). Apoia-se na visão
 
 ## 📎 Documentação afetada
 
-- [[Calendário do mês]]
-- [[Agenda do dia]]
-- [[Marcar consulta]]
+- [[CalendarioDoMes]]
+- [[AgendaDoDia]]
+- [[MarcarConsulta]]
 - [[2026]] (changelog)

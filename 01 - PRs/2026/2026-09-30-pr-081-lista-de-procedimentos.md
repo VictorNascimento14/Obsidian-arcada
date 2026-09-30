@@ -46,7 +46,7 @@ Item 6.2 (Lista com busca e filtro) do [[2026-09-30-plano-da-v1]], sobre o catá
 
 ## 📎 Documentação afetada
 
-- [[Lista de procedimentos]]
+- [[ListaDeProcedimentos]]
 - [[CatalogoPadrao]]
 - [[2026-09-30-plano-da-v1]]
 - [[2026]] (changelog)

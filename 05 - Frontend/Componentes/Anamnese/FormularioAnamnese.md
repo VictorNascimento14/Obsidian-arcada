@@ -11,7 +11,7 @@ tags: [funcionalidade, anamnese, formulario]
 
 ## O que é
 
-A aba **Anamnese** da [[Ficha do paciente]]: as perguntas do questionário para preencher com o paciente e salvar.
+A aba **Anamnese** da [[FichaDoPaciente]]: as perguntas do questionário para preencher com o paciente e salvar.
 É o item 2.2 do [[2026-09-30-plano-da-v1]]. Não tem rota própria: o módulo só registra a aba (`abaPaciente`,
 ordem 10), e a ficha a monta quando ela é escolhida. As perguntas e o que significa cada resposta estão no
 [[glossario]] (Anamnese); o modelo é o do PR [[2026-09-30-pr-082-anamnese-questionario]].

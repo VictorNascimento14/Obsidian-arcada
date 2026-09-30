@@ -51,7 +51,7 @@ Item 6.3 (Cadastro e edição) do [[2026-09-30-plano-da-v1]], sobre a lista do P
 ## 📎 Documentação afetada
 
 - [[CadastroDeProcedimento]]
-- [[Lista de procedimentos]]
+- [[ListaDeProcedimentos]]
 - [[CatalogoPadrao]]
 - [[2026-09-30-plano-da-v1]]
 - [[2026]] (changelog)

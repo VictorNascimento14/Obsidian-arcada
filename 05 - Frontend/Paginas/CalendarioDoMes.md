@@ -11,7 +11,7 @@ tags: [funcionalidade, agenda, calendario]
 
 ## O que é
 
-O calendário do mês da [[Agenda do dia]]: mostra de relance quais dias têm consulta e leva a qualquer um deles
+O calendário do mês da [[AgendaDoDia]]: mostra de relance quais dias têm consulta e leva a qualquer um deles
 com um toque. É o `Calendar` do kit, sem código de calendário próprio.
 
 ## Onde está no código
@@ -20,7 +20,7 @@ com um toque. É o `Calendar` do kit, sem código de calendário próprio.
 - `src/modulos/agenda/dias.ts` — `diasComConsulta`: os dias que vão em `marcados`.
 - `src/modulos/agenda/PaginaAgenda.tsx` — onde ele fica na tela (ao lado da grade ou atrás do botão **Mês**) e
   o que acontece ao clicar num dia.
-- Lê a coleção `consultas` por `useColecao`; a marca acompanha as consultas marcadas na hora (ver [[Marcar consulta]]).
+- Lê a coleção `consultas` por `useColecao`; a marca acompanha as consultas marcadas na hora (ver [[MarcarConsulta]]).
 
 ## Comportamento
 

@@ -13,7 +13,7 @@ tags: [funcionalidade, tratamentos, plano, lista]
 
 A lista de trabalho do módulo Tratamentos: os planos que ainda não terminaram nem foram recusados, de todos os
 pacientes, com quem é o paciente, a situação e o total. Abre pelo item **Tratamentos** da coluna lateral (grupo
-Gestão, ícone de recibo), e cada linha leva à tela do plano ([[Plano de tratamento]]).
+Gestão, ícone de recibo), e cada linha leva à tela do plano ([[PlanoDeTratamento]]).
 
 ## Onde está no código
 

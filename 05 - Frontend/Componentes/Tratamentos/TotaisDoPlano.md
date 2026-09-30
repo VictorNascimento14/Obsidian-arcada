@@ -41,4 +41,4 @@ total não se guarda no plano: calcula-se aqui, sempre do mesmo jeito.
 
 - [[2026-09-30-pr-049-tratamentos-plano]] — `subtotal`, `total`, `itensRealizados` e o campo `realizadoEm` do item.
 - [[2026-09-30-pr-068-tratamentos-desconto]] — o desconto ganha a própria conta, em [[DescontoDoOrcamento]].
-- [[2026-09-30-pr-097-tratamentos-itens]] — a tela do plano ([[Plano de tratamento]]) e a aba `Tratamentos` da ficha passam a usar `subtotal` e `total`.
+- [[2026-09-30-pr-097-tratamentos-itens]] — a tela do plano ([[PlanoDeTratamento]]) e a aba `Tratamentos` da ficha passam a usar `subtotal` e `total`.

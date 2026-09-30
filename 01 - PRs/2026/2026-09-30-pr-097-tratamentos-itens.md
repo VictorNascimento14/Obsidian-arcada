@@ -56,8 +56,8 @@ Item 7.3 do [[2026-09-30-plano-da-v1]] (módulo 7 · Plano de tratamento e orça
 
 ## 📎 Documentação afetada
 
-- [[Plano de tratamento]]
-- [[Ficha do paciente]]
+- [[PlanoDeTratamento]]
+- [[FichaDoPaciente]]
 - [[TotaisDoPlano]]
 - [[DescontoDoOrcamento]]
 - [[SituacaoDoPlano]]

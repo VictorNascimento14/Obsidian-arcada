@@ -11,7 +11,7 @@ tags: [funcionalidade, agenda, marcar-consulta, modal]
 
 ## O que é
 
-O modal que a [[Agenda do dia]] abre para marcar uma consulta: paciente, profissional, cadeira, procedimento,
+O modal que a [[AgendaDoDia]] abre para marcar uma consulta: paciente, profissional, cadeira, procedimento,
 data, início e duração. Barra o que não pode acontecer (duas consultas disputando a cadeira ou o profissional,
 marcação em feriado nacional) e sugere os horários livres do dia.
 

@@ -13,7 +13,7 @@ tags: [funcionalidade, tratamentos, plano, orcamento, fdi]
 
 A tela de um plano de tratamento: os procedimentos propostos a um paciente, cada um no dente e nas faces em que
 será feito, e o orçamento deles (subtotal, desconto e total) com a situação do plano. Chega-se a ela pela aba
-`Tratamentos` da [[Ficha do paciente]], que lista os planos do paciente e cria um novo.
+`Tratamentos` da [[FichaDoPaciente]], que lista os planos do paciente e cria um novo.
 
 ## Onde está no código
 

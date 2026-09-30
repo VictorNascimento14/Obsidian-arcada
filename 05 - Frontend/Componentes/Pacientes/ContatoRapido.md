@@ -12,7 +12,7 @@ tags: [funcionalidade, pacientes, contato, whatsapp]
 ## O que é
 
 Os links para falar com o paciente: WhatsApp e ligação. Os botões `WhatsApp` e `Ligar` estão no cabeçalho da
-[[Ficha do paciente]], e o [[Cadastro de paciente]] usa `linkTelefone` como critério de telefone válido.
+[[FichaDoPaciente]], e o [[CadastroDePaciente]] usa `linkTelefone` como critério de telefone válido.
 
 ## Onde está no código
 

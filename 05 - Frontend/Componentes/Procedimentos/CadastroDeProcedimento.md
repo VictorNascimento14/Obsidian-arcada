@@ -11,7 +11,7 @@ tags: [funcionalidade, procedimentos, cadastro]
 
 ## O que é
 
-O modal que cadastra e edita um procedimento da tabela, aberto pela tela [[Lista de procedimentos]]:
+O modal que cadastra e edita um procedimento da tabela, aberto pela tela [[ListaDeProcedimentos]]:
 **Novo procedimento** (o botão ao lado da busca) cria; **Editar**, em cada linha, altera o procedimento no
 lugar.
 

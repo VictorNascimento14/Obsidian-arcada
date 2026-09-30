@@ -13,7 +13,7 @@ tags: [funcionalidade, procedimentos, catalogo]
 
 A tabela de 32 procedimentos comuns, em oito especialidades, que a clínica recebe na primeira abertura do
 app, para ter preços a editar em vez de uma lista vazia. É demonstração (ADR-001): preços fictícios e códigos
-inventados para a clínica. A [[Lista de procedimentos]] o mostra, e o [[CadastroDeProcedimento]] o edita.
+inventados para a clínica. A [[ListaDeProcedimentos]] o mostra, e o [[CadastroDeProcedimento]] o edita.
 
 ## Onde está no código
 

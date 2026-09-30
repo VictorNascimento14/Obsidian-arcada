@@ -54,9 +54,9 @@ A ficha mostra na tela nome, idade, telefone, e-mail, CPF (com máscara, se cada
 
 ## 📎 Documentação afetada
 
-- [[Ficha do paciente]]
-- [[Lista de pacientes]]
-- [[Cadastro de paciente]]
+- [[FichaDoPaciente]]
+- [[ListaDePacientes]]
+- [[CadastroDePaciente]]
 - [[ContatoRapido]]
 - [[IdadeEFaixaEtaria]]
 - [[2026]] (changelog)

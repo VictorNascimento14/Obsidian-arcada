@@ -48,7 +48,7 @@ cadeira, com quem e a que horas.
 - **Sementes**: dez consultas de segunda a sexta da semana de hoje (no sábado e no domingo, da semana que vem),
   com as datas calculadas na hora de semear; o dia que já passou fica `concluida` e feriado é pulado. Só entram
   se a coleção `consultas` estiver vazia, e cada uma traz um procedimento do catálogo padrão ([[CatalogoPadrao]]).
-- **Marcar consulta**: o botão **Marcar consulta** abre o modal de marcação ([[Marcar consulta]]).
+- **Marcar consulta**: o botão **Marcar consulta** abre o modal de marcação ([[MarcarConsulta]]).
 - **Pendente**: semana (8.4), botões de situação (8.6), calendário do mês (8.8) e remarcar e cancelar (8.9) são
   os próximos itens do plano.
 
