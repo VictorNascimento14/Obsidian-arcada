@@ -59,8 +59,8 @@ Os termos (orçamento, parcela, baixa) estão em [[glossario]]; o fluxo do orça
 - Parcelamento com distribuição do resto dos centavos (`parcelar`):
   [[2026-09-30-pr-055-tratamentos-parcelas]], em `src/modulos/tratamentos/parcelas.ts`; comportamento em
   [[ParcelamentoDoOrcamento]]. **Divergência da decisão 4:** a regra mora no módulo Tratamentos, e não em
-  `src/dominio/` — o backlog a pôs lá e o financeiro importa dali; se outro módulo passar a usar, mover para
-  `src/dominio/` é trocar o import.
+  `src/dominio/` — o backlog a pôs lá e o financeiro (item 10.1) vai importá-la dali; se outro módulo passar a
+  usar, mover para `src/dominio/` é trocar o import.
 - Arredondamento do desconto percentual (`aplicarDesconto`): [[2026-09-30-pr-068-tratamentos-desconto]], em
   `src/modulos/tratamentos/desconto.ts` — o centavo mais próximo, com o meio centavo subindo, numa conta toda
   em inteiros (o percentual vira centésimos); comportamento em [[DescontoDoOrcamento]] e o porquê em
