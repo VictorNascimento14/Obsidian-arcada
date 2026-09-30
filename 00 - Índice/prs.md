@@ -43,3 +43,4 @@ Toda mudança no repositório de código vira uma nota aqui. Mais recente embaix
 | #65 | [[2026-09-30-pr-065-odontograma-faces-por-dente]] — feat(odontograma): definir as faces de cada dente e a validação delas |
 | #68 | [[2026-09-30-pr-068-tratamentos-desconto]] — feat(tratamentos): aplicar o desconto percentual ou em valor ao orçamento |
 | #69 | [[2026-09-30-pr-069-cadeiras-da-clinica]] — feat(clinica): cadastrar as cadeiras |
+| #70 | [[2026-09-30-pr-070-odontograma-condicoes-e-legenda]] — feat(odontograma): listar as condições do odontograma e a legenda |
