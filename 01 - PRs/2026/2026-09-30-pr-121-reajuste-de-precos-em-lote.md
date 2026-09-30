@@ -7,7 +7,7 @@ pr: 121
 url: https://github.com/VictorNascimento14/Arcada/pull/121
 branch: feat/procedimentos-reajuste
 tags: [pr, procedimentos, preco, reajuste]
-status: aberto
+status: merged
 ---
 
 # PR #121 — feat(procedimentos): reajustar preços em lote com prévia
