@@ -38,3 +38,4 @@ Toda mudança no repositório de código vira uma nota aqui. Mais recente embaix
 | #55 | [[2026-09-30-pr-055-tratamentos-parcelas]] — feat(tratamentos): parcelar o orçamento distribuindo o resto dos centavos |
 | #59 | [[2026-09-30-pr-059-horarios-livres]] — feat(agenda): listar os horários livres do expediente |
 | #60 | [[2026-09-30-pr-060-tratamentos-situacao]] — feat(tratamentos): definir as transições da situação do plano |
+| #61 | [[2026-09-30-pr-061-situacao-da-consulta]] — feat(agenda): definir as transições válidas da situação da consulta |
