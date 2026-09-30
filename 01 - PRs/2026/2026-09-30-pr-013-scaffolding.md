@@ -7,7 +7,7 @@ pr: 13
 url: https://github.com/VictorNascimento14/Arcada/pull/13
 branch: chore/scaffolding
 tags: [pr, fundacao, scaffolding]
-status: aberto
+status: merged
 ---
 
 # PR #13 — chore: scaffolding Vite + React + TypeScript + ESLint
