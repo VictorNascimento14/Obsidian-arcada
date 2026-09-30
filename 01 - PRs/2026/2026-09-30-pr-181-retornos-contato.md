@@ -7,7 +7,7 @@ pr: 181
 url: https://github.com/VictorNascimento14/Arcada/pull/181
 branch: feat/retornos-contato
 tags: [pr, retornos, whatsapp, contato]
-status: aberto
+status: merged
 ---
 
 # PR #181 — feat(retornos): contatar o paciente pelo WhatsApp e oferecer o atalho para marcar a consulta
