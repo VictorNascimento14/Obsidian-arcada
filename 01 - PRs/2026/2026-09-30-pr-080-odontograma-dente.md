@@ -7,7 +7,7 @@ pr: 80
 url: https://github.com/VictorNascimento14/Arcada/pull/80
 branch: feat/odontograma-dente
 tags: [pr, odontograma, dente, acessibilidade]
-status: aberto
+status: merged
 ---
 
 # PR #80 — feat(odontograma): desenhar o dente com as cinco faces
