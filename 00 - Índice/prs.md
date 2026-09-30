@@ -49,3 +49,4 @@ Toda mudança no repositório de código vira uma nota aqui. Mais recente embaix
 | #76 | [[2026-09-30-pr-076-ficha-do-paciente]] — feat(pacientes): abrir a ficha do paciente com cabeçalho e abas |
 | #79 | [[2026-09-30-pr-079-agenda-dia]] — feat(agenda): mostrar o dia da clínica por cadeira |
 | #80 | [[2026-09-30-pr-080-odontograma-dente]] — feat(odontograma): desenhar o dente com as cinco faces |
+| #81 | [[2026-09-30-pr-081-lista-de-procedimentos]] — feat(procedimentos): listar procedimentos com busca por nome e código e filtro por especialidade |
