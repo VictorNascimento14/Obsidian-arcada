@@ -27,21 +27,23 @@ lugar.
 
 - **Campos**: Nome (obrigatório, até 100 caracteres); Especialidade (obrigatória, lista fechada: as oito do
   [[CatalogoPadrao]] e as de fora dele que a tabela já tem); Código (opcional, até 20 caracteres, sem repetir o
-  de outro procedimento e sem distinguir caixa); Preço (R$); Duração (minutos); e as exigências «Exige dente»
-  e «Exige face».
+  de outro procedimento e sem distinguir caixa); Preço (R$); Duração (minutos); as exigências «Exige dente» e «Exige face»; e a caixa «Procedimento ativo», que diz se ele aparece nas escolhas do plano de tratamento e da agenda.
 - **Preço**: digitado no padrão brasileiro — `180`, `180,5`, `1.234,56`, `R$ 90,00` — e guardado em centavos
   por `paraCentavos`. O ponto é milhar (`1.300` são R$ 1.300,00); `12,345`, `12.50`, sinal e texto são
   recusados. Preço zero é aceito. Ao editar, o campo abre como se digita (`1.234,56`).
 - **Duração**: inteiro de 1 a 480 minutos, só dígitos.
 - **Dente e face**: «Exige face» só se marca com «Exige dente», e desmarcar o dente desmarca a face. A função
   de escrita também recusa face sem dente.
-- **Novo** nasce ativo e com id novo. **Editar** troca no lugar (mesmo id) e mantém o que o formulário não
-  edita: `ativo` e `condicaoResultante` seguem como estavam.
+- **Novo** nasce ativo (a caixa «Procedimento ativo» vem marcada) e com id novo. **Editar** troca no lugar
+  (mesmo id), leva o `ativo` da caixa e mantém o que o formulário não edita: a `condicaoResultante` segue como
+  estava.
+- **Desativar e reativar**: desmarcar a caixa e salvar deixa o procedimento inativo, e marcá-la de novo o
+  reativa. O inativo continua na tabela e no histórico, mas some das escolhas do plano de tratamento e da
+  agenda, e as duas regras de gravação o recusam ([[AtivarEDesativarProcedimento]]).
 - **Salvar** valida pela função de escrita: com erro, o modal continua aberto, cada campo mostra a mensagem e
   nada é gravado. Cancelar, Esc e clique fora fecham sem gravar. Salvou: o aviso «Procedimento cadastrado»
   ou «Procedimento atualizado» e o modal fecha.
-- **Sem exclusão**: o procedimento que já foi orçado ou feito precisa continuar no histórico; a saída é
-  desativar (item 6.5 do [[2026-09-30-plano-da-v1]]).
+- **Sem exclusão**: o procedimento que já foi orçado ou feito precisa continuar no histórico; a saída é desativar, pela caixa «Procedimento ativo».
 
 ## Movimento e micro-interações
 
@@ -59,3 +61,4 @@ O modal é o do kit: o foco entra nele e volta ao botão que o abriu quando fech
 ## Histórico de mudanças
 
 - [[2026-09-30-pr-096-cadastro-de-procedimento]] — O cadastro e a edição, com a validação do preço, da duração e do código.
+- [[2026-09-30-pr-129-ativar-e-desativar-procedimento]] — a caixa «Procedimento ativo» no formulário.

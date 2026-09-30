@@ -19,7 +19,10 @@ e filtro por especialidade. É onde a clínica confere o que oferece e por quant
 
 - `src/modulos/procedimentos/modulo.ts` — a rota `/procedimentos` e o item `Procedimentos` da coluna (grupo
   Cadastros, ordem 10, ícone `list`).
-- `src/modulos/procedimentos/ListaProcedimentos.tsx` — a tela.
+- `src/modulos/procedimentos/ListaProcedimentos.tsx` — a tela, com a seleção das linhas, o botão **Reajustar
+  preços** e a marca **Inativo**.
+- `src/modulos/procedimentos/ReajusteDePrecos.tsx` e `reajuste.ts` — o modal e a regra do reajuste em lote
+  ([[ReajusteDePrecos]]).
 - `src/modulos/procedimentos/busca.ts` — `filtrarProcedimentos` (busca, filtro e ordem) e
   `especialidadesDe` (as opções do filtro).
 - Lê a coleção `procedimentos` (`src/dados/colecoes.ts`) por `useColecao`.
@@ -44,7 +47,12 @@ e filtro por especialidade. É onde a clínica confere o que oferece e por quant
 - **Sem paginação**: a lista inteira vai para a tela; o catálogo tem dezenas de linhas.
 - **Cadastro e edição**: o botão **Novo procedimento**, ao lado da busca, e o **Editar** de cada linha abrem o
   modal de [[CadastroDeProcedimento]].
-- **Pendente**: o reajuste em lote, item 6.4 do [[2026-09-30-plano-da-v1]]; ativar e desativar, item 6.5.
+- **Reajuste em lote**: cada linha tem uma caixa de seleção, e **Selecionar todos** marca a lista inteira (com
+  busca ou filtro ativo, vira **Selecionar os visíveis**). O botão **Reajustar preços** abre o modal de
+  [[ReajusteDePrecos]], que mostra a prévia antes de gravar; a contagem soma `· N selecionados`.
+- **Ativo e inativo**: o procedimento inativo continua na lista, na busca e no filtro, com a marca **Inativo**
+  ao lado do nome. Desativa-se e reativa-se pelo **Editar**, na caixa «Procedimento ativo»
+  ([[AtivarEDesativarProcedimento]]).
 
 ## Movimento e micro-interações
 
@@ -62,3 +70,5 @@ sistema.
 
 - [[2026-09-30-pr-081-lista-de-procedimentos]] — A tela, a busca, o filtro por especialidade e o item na coluna.
 - [[2026-09-30-pr-096-cadastro-de-procedimento]] — o botão **Novo procedimento** e o **Editar** de cada linha.
+- [[2026-09-30-pr-121-reajuste-de-precos-em-lote]] — a seleção das linhas e o botão **Reajustar preços**.
+- [[2026-09-30-pr-129-ativar-e-desativar-procedimento]] — a marca **Inativo** na lista.
