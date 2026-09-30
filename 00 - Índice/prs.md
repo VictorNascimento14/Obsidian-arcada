@@ -53,3 +53,4 @@ Toda mudança no repositório de código vira uma nota aqui. Mais recente embaix
 | #82 | [[2026-09-30-pr-082-anamnese-questionario]] — feat(anamnese): definir o questionário da anamnese e a validação das respostas |
 | #88 | [[2026-09-30-pr-088-periodontograma-exame]] — feat(periodontograma): modelar o exame de seis sítios e calcular os índices |
 | #89 | [[2026-09-30-pr-089-odontograma-arcadas]] — feat(odontograma): desenhar as arcadas superior e inferior |
+| #92 | [[2026-09-30-pr-092-anamnese-alertas]] — feat(anamnese): derivar os alertas das respostas da anamnese |
