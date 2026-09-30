@@ -42,8 +42,9 @@ e filtro por especialidade. É onde a clínica confere o que oferece e por quant
 - **Estados vazios**: sem nenhum procedimento, `Nenhum procedimento cadastrado ainda`; com filtro sem
   resultado, `Nenhum procedimento encontrado` e o botão `Limpar filtros`, que zera a busca e a especialidade.
 - **Sem paginação**: a lista inteira vai para a tela; o catálogo tem dezenas de linhas.
-- **Pendente**: o cadastro e a edição chegam com o item 6.3 do [[2026-09-30-plano-da-v1]]; o reajuste em
-  lote, com o 6.4; ativar e desativar, com o 6.5.
+- **Cadastro e edição**: o botão **Novo procedimento**, ao lado da busca, e o **Editar** de cada linha abrem o
+  modal de [[CadastroDeProcedimento]].
+- **Pendente**: o reajuste em lote, item 6.4 do [[2026-09-30-plano-da-v1]]; ativar e desativar, item 6.5.
 
 ## Movimento e micro-interações
 
@@ -55,8 +56,9 @@ sistema.
 
 - Sem verificação visual em navegador (o Chrome de teste não conecta nesta máquina): conferi só que as
   classes novas existem no CSS do build.
-- A linha ainda não leva a lugar nenhum: sem hover nem link até o cadastro (item 6.3).
+- A linha em si não leva a lugar nenhum: a edição abre pelo botão **Editar** dela.
 
 ## Histórico de mudanças
 
 - [[2026-09-30-pr-081-lista-de-procedimentos]] — A tela, a busca, o filtro por especialidade e o item na coluna.
+- [[2026-09-30-pr-096-cadastro-de-procedimento]] — o botão **Novo procedimento** e o **Editar** de cada linha.

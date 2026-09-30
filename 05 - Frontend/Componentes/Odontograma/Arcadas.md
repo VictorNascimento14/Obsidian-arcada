@@ -13,7 +13,8 @@ tags: [funcionalidade, odontograma, arcadas]
 
 O componente `Odontograma` na sua primeira forma: as duas arcadas com os 16 dentes permanentes de cada uma, cada
 dente desenhado pelo [[Dente]], e a linha média no meio. É o corpo do odontograma que o registro de condições
-(item 3.7 do [[2026-09-30-plano-da-v1]]) vai usar; dentição decídua e mista vêm no item 3.6. Ainda não há rota:
+(item 3.7 do [[2026-09-30-plano-da-v1]]) vai usar; a dentição decídua e a mista se escolhem no seletor de
+[[Denticoes]] (item 3.6). Ainda não há rota:
 o módulo Odontograma não tem `modulo.ts`, e o `Odontograma` só aparece quando uma tela o usar. A notação (quais
 números existem e em que ordem se desenham) é a da [[ADR-004-notacao-fdi-no-odontograma]].
 
@@ -55,3 +56,4 @@ Nenhum além do realce de cada face ao passar o mouse, que é do [[Dente]].
 ## Histórico de mudanças
 
 - [[2026-09-30-pr-089-odontograma-arcadas]] — as duas arcadas permanentes com a linha média.
+- [[2026-09-30-pr-094-odontograma-denticao]] — o seletor de dentição passa a alternar o que as arcadas mostram: [[Denticoes]].

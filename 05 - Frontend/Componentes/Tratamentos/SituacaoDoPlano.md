@@ -45,3 +45,4 @@ consultam esta regra para saber que passo existe.
 ## Histórico de mudanças
 
 - [[2026-09-30-pr-060-tratamentos-situacao]] — as transições da situação do plano: `proximasSituacoes`, `podeTransitar` e `transitar`.
+- [[2026-09-30-pr-097-tratamentos-itens]] — os botões de situação da tela do plano ([[Plano de tratamento]]) seguem `proximasSituacoes`, e a mudança grava por `transitar`.

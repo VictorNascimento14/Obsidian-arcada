@@ -47,9 +47,10 @@ cadeira, com quem e a que horas.
   no lugar da grade quando o expediente não tem horário e não há consulta; `Nenhuma cadeira cadastrada` sem cadeira.
 - **Sementes**: dez consultas de segunda a sexta da semana de hoje (no sábado e no domingo, da semana que vem),
   com as datas calculadas na hora de semear; o dia que já passou fica `concluida` e feriado é pulado. Só entram
-  se a coleção `consultas` estiver vazia, e sem procedimento (o catálogo tem o semeador dele).
-- **Pendente**: semana (8.4), marcar consulta (8.5), botões de situação (8.6), calendário do mês (8.8) e remarcar
-  e cancelar (8.9) são os próximos itens do plano.
+  se a coleção `consultas` estiver vazia, e cada uma traz um procedimento do catálogo padrão ([[CatalogoPadrao]]).
+- **Marcar consulta**: o botão **Marcar consulta** abre o modal de marcação ([[Marcar consulta]]).
+- **Pendente**: semana (8.4), botões de situação (8.6), calendário do mês (8.8) e remarcar e cancelar (8.9) são
+  os próximos itens do plano.
 
 ## Movimento e micro-interações
 
@@ -59,3 +60,4 @@ kit, com o `press` no clique. O kit já respeita `prefers-reduced-motion`.
 ## Histórico de mudanças
 
 - [[2026-09-30-pr-079-agenda-dia]] — a tela, a grade por cadeira, o cartão da consulta e as sementes.
+- [[2026-09-30-pr-093-agenda-marcar]] — o botão **Marcar consulta**, e as sementes passam a trazer procedimento.

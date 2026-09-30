@@ -32,7 +32,7 @@ cada módulo guarda sobre ele. A [[Lista de pacientes]] e o [[Cadastro de pacien
   paciente cadastrado com telefone de DDD válido.
 - **Abas**: `Dados` é sempre a primeira; depois vêm as que os módulos registram em `abaPaciente` no
   `modulo.ts`, por `ordem` (no empate, pela `chave`). Cada uma recebe o `pacienteId`. Só a aba ativa é
-  montada.
+  montada. Uma delas é `Tratamentos` (ordem 40), do módulo de tratamentos ([[Plano de tratamento]]).
 - **Aba `Dados`**: nascimento (`DD/MM/AAAA`), CPF (com máscara), telefone, e-mail, convênio e observações; o
   que não foi preenchido aparece como `Não informado`. As observações mantêm as quebras de linha.
 - **Teclado** (padrão WAI-ARIA de abas): ← e → trocam de aba e movem o foco, dando a volta nas pontas; Home
@@ -54,3 +54,4 @@ no hover. A faixa de abas rola na horizontal no celular.
 ## Histórico de mudanças
 
 - [[2026-09-30-pr-076-ficha-do-paciente]] — a ficha com a aba `Dados`, os botões de contato e o teclado das abas.
+- [[2026-09-30-pr-097-tratamentos-itens]] — a aba `Tratamentos` entra pelo registro de abas, sem editar a ficha.

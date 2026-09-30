@@ -59,3 +59,4 @@ e do tipo que esta regra dá, estão em [[FacesDoDente]].
 
 - [[2026-09-30-pr-053-odontograma-notacao-fdi]] — a regra da notação: listas, validade, quadrante, dentição, arcada, lado, tipo e nome.
 - [[2026-09-30-pr-065-odontograma-faces-por-dente]] — as faces de cada dente entram no mesmo arquivo, com nota própria: [[FacesDoDente]].
+- [[2026-09-30-pr-097-tratamentos-itens]] — o formulário do item do plano escolhe o dente por `nomeDente` ([[Plano de tratamento]]).

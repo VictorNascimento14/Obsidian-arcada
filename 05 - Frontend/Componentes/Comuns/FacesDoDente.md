@@ -48,3 +48,4 @@ dente. A decisão está no [[ADR-004-notacao-fdi-no-odontograma]]; o significado
 ## Histórico de mudanças
 
 - [[2026-09-30-pr-065-odontograma-faces-por-dente]] — `facesDoDente`, `faceValida` e `nomeFace`.
+- [[2026-09-30-pr-097-tratamentos-itens]] — o formulário do item do plano mostra só as faces do dente escolhido, por `facesDoDente` ([[Plano de tratamento]]).

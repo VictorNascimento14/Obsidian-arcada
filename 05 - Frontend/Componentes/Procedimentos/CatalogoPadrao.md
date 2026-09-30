@@ -13,8 +13,7 @@ tags: [funcionalidade, procedimentos, catalogo]
 
 A tabela de 32 procedimentos comuns, em oito especialidades, que a clínica recebe na primeira abertura do
 app, para ter preços a editar em vez de uma lista vazia. É demonstração (ADR-001): preços fictícios e códigos
-inventados para a clínica. Ainda não há tela: a lista e o cadastro vêm nos itens 6.2 e 6.3 do
-[[2026-09-30-plano-da-v1]].
+inventados para a clínica. A [[Lista de procedimentos]] o mostra, e o [[CadastroDeProcedimento]] o edita.
 
 ## Onde está no código
 
@@ -64,3 +63,5 @@ inventados para a clínica. Ainda não há tela: a lista e o cadastro vêm nos i
 ## Histórico de mudanças
 
 - [[2026-09-30-pr-074-catalogo-padrao-de-procedimentos]] — O catálogo padrão de 32 procedimentos e a semente que o planta.
+- [[2026-09-30-pr-096-cadastro-de-procedimento]] — os procedimentos do catálogo passam a poder ser editados, e novos, cadastrados.
+- [[2026-09-30-pr-097-tratamentos-itens]] — o formulário do item do plano oferece só os procedimentos ativos, agrupados por especialidade.
