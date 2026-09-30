@@ -40,6 +40,7 @@ Um bloco por módulo, na numeração do [[2026-09-30-plano-da-v1]]; módulo sem 
 - [[CondicoesELegenda]] — as nove condições do odontograma e a legenda com a cor de cada uma.
 - [[Dente]] — o desenho de um dente em SVG, com o número FDI e as cinco faces, clicáveis e focáveis por teclado.
 - [[Arcadas]] — as duas arcadas permanentes, cada dente desenhado pelo `Dente`, com a linha média no meio.
+- [[Denticoes]] — o seletor que alterna o odontograma entre a dentição permanente, a decídua e a mista.
 
 ### 5 · Clínica e equipe
 
@@ -50,10 +51,12 @@ Um bloco por módulo, na numeração do [[2026-09-30-plano-da-v1]]; módulo sem 
 ### 6 · Procedimentos
 
 - [[Lista de procedimentos]] — `/procedimentos`: a tabela de procedimentos, com busca por nome e código e filtro por especialidade.
+- [[CadastroDeProcedimento]] — o modal que cadastra e edita um procedimento, aberto pela lista.
 - [[CatalogoPadrao]] — os 32 procedimentos comuns, em oito especialidades, que a clínica recebe na primeira abertura.
 
 ### 7 · Plano de tratamento e orçamento
 
+- [[Plano de tratamento]] — `/planos/:planoId`: os itens do plano por dente e face, o orçamento e a situação; chega-se pela aba `Tratamentos` da ficha.
 - [[TotaisDoPlano]] — o subtotal, o total do orçamento e os itens já realizados.
 - [[DescontoDoOrcamento]] — o desconto percentual ou em valor, guardado em centavos.
 - [[ParcelamentoDoOrcamento]] — o total dividido em parcelas que somam exatamente o total, com o vencimento de cada uma.
