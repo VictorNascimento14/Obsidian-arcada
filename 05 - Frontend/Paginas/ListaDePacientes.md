@@ -18,7 +18,7 @@ telefone. É por ela que se acha quem chegou e se abre a [[FichaDoPaciente]].
 
 - `src/modulos/pacientes/modulo.ts` — a rota `/pacientes` e o item `Pacientes` da coluna (grupo
   Consultório, ordem 20, ícone `users`, também na barra do celular).
-- `src/modulos/pacientes/ListaPacientes.tsx` — a tela.
+- `src/modulos/pacientes/ListaPacientes.tsx` — a tela, com o selo de alertas da anamnese em cada cartão ([[SeloAlertas]]).
 - `src/modulos/pacientes/busca.ts` — `filtrarPacientes`: a ordem e o filtro.
 - `src/modulos/pacientes/exibicao.ts` — idade e convênio em texto (`anosDoPaciente`, `rotuloIdade`,
   `rotuloConvenio`); a idade vem de [[IdadeEFaixaEtaria]].
@@ -35,7 +35,7 @@ telefone. É por ela que se acha quem chegou e se abre a [[FichaDoPaciente]].
   tela anuncia a cada letra digitada.
 - **Cartão**: avatar com as iniciais, nome, `idade · convênio` e telefone. Paciente sem convênio aparece
   como `Particular`; nascimento ilegível omite a idade em vez de quebrar a lista. O cartão inteiro é um
-  link para `/pacientes/:id`, a [[FichaDoPaciente]].
+  link para `/pacientes/:id`, a [[FichaDoPaciente]]. Quando a anamnese mais recente tem alertas, o cartão mostra o selo ([[SeloAlertas]]): uma pílula por alerta, como `Alergia informada: …`; sem alerta, não sobra espaço vazio.
 - **Estados vazios**: sem nenhum paciente cadastrado, `Nenhum paciente cadastrado ainda`; com busca sem
   resultado, `Nenhum paciente encontrado` e o botão `Limpar busca`.
 - **Sem paginação**: a lista inteira vai para a tela; a demo tem dezenas de pacientes.
@@ -52,3 +52,4 @@ do link segue o raio de 26px do vidro. O kit já respeita `prefers-reduced-motio
 - [[2026-09-30-pr-051-lista-de-pacientes]] — a tela, a busca por nome e telefone e o item na coluna.
 - [[2026-09-30-pr-071-cadastro-de-paciente]] — o botão `Novo paciente` ao lado da busca.
 - [[2026-09-30-pr-076-ficha-do-paciente]] — o cartão passa a abrir a [[FichaDoPaciente]]; até então a rota `/pacientes/:id` não existia.
+- [[2026-09-30-pr-119-alertas-do-paciente]] — o selo de alertas da anamnese no cartão.
