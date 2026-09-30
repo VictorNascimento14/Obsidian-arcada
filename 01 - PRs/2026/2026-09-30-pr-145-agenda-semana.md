@@ -7,7 +7,7 @@ pr: 145
 url: https://github.com/VictorNascimento14/Arcada/pull/145
 branch: feat/agenda-semana
 tags: [pr, agenda, semana]
-status: aberto
+status: merged
 ---
 
 # PR #145 — feat(agenda): mostrar a semana da agenda em sete colunas
