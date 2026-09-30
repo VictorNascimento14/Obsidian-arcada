@@ -7,7 +7,7 @@ pr: 103
 url: https://github.com/VictorNascimento14/Arcada/pull/103
 branch: feat/tratamentos-em-aberto
 tags: [pr, tratamentos, plano, lista, coluna]
-status: aberto
+status: merged
 ---
 
 # PR #103 — feat(tratamentos): listar os planos de tratamento em aberto
