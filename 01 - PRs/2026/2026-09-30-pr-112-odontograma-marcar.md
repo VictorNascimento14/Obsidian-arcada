@@ -7,7 +7,7 @@ pr: 112
 url: https://github.com/VictorNascimento14/Arcada/pull/112
 branch: feat/odontograma-marcar
 tags: [pr, odontograma, condicoes, acessibilidade, ficha]
-status: aberto
+status: merged
 ---
 
 # PR #112 — feat(odontograma): marcar condição por face e por dente na ficha do paciente
