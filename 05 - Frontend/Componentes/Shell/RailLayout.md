@@ -17,8 +17,11 @@ roteador, a navegação, a conta e a função de abrir o menu do celular. Vem do
 ## Onde está no código
 
 - `src/ui/shell/RailLayout.tsx` (kit) — layout e contexto.
-- `src/App.tsx` — a rota de layout, com `basename: import.meta.env.BASE_URL`.
-- `src/navegacao.tsx` — os grupos e itens da coluna, e a conta de demonstração.
+- `src/rotas.tsx` — a árvore de rotas: o `RailLayout` com os grupos, a barra do celular e as rotas que o registro
+  de módulos achou (`src/modulos/index.ts`, [[ADR-003-modulos-por-pasta-com-registro-automatico]]); as telas de
+  sistema ficam fora dele.
+- `src/App.tsx` — cria o roteador, com `basename: import.meta.env.BASE_URL`.
+- `src/navegacao.tsx` — só a conta de demonstração; os grupos e itens da coluna vêm dos módulos.
 
 ## Comportamento
 
@@ -35,3 +38,5 @@ coluna recolhida. Detalhes nas invariantes do `CLAUDE.md` do repositório de có
 ## Histórico de mudanças
 
 - [[2026-09-30-pr-018-casca]] — casca instalada com o grupo "Consultório" e a tela Painel provisória.
+- [[2026-09-30-pr-022-registro-de-modulos]] — os grupos e itens da coluna passam a vir do registro de módulos; `src/navegacao.tsx` fica só com a conta.
+- [[2026-09-30-pr-023-telas-de-sistema]] — a árvore de rotas vai para `src/rotas.tsx`, com a página não encontrada e o erro inesperado fora da casca.

@@ -12,7 +12,7 @@ tags: [funcionalidade, pacientes, lista, busca]
 ## O que é
 
 A tela de entrada do módulo Pacientes: todos os pacientes da clínica em cartões, com busca por nome e por
-telefone. É por ela que se acha quem chegou e se abre a ficha.
+telefone. É por ela que se acha quem chegou e se abre a [[Ficha do paciente]].
 
 ## Onde está no código
 
@@ -35,12 +35,12 @@ telefone. É por ela que se acha quem chegou e se abre a ficha.
   tela anuncia a cada letra digitada.
 - **Cartão**: avatar com as iniciais, nome, `idade · convênio` e telefone. Paciente sem convênio aparece
   como `Particular`; nascimento ilegível omite a idade em vez de quebrar a lista. O cartão inteiro é um
-  link para `/pacientes/:id`.
+  link para `/pacientes/:id`, a [[Ficha do paciente]].
 - **Estados vazios**: sem nenhum paciente cadastrado, `Nenhum paciente cadastrado ainda`; com busca sem
   resultado, `Nenhum paciente encontrado` e o botão `Limpar busca`.
 - **Sem paginação**: a lista inteira vai para a tela; a demo tem dezenas de pacientes.
-- **Pendente**: a ficha (`/pacientes/:id`) é o item 1.5 do plano; o botão de cadastro chega com o item 1.3
-  e os filtros por convênio e situação, com o 1.8.
+- **Novo paciente**: o botão ao lado da busca leva ao [[Cadastro de paciente]] (`/pacientes/novo`).
+- **Pendente**: os filtros por convênio e situação, item 1.8 do plano.
 
 ## Movimento e micro-interações
 
@@ -50,3 +50,5 @@ do link segue o raio de 26px do vidro. O kit já respeita `prefers-reduced-motio
 ## Histórico de mudanças
 
 - [[2026-09-30-pr-051-lista-de-pacientes]] — a tela, a busca por nome e telefone e o item na coluna.
+- [[2026-09-30-pr-071-cadastro-de-paciente]] — o botão `Novo paciente` ao lado da busca.
+- [[2026-09-30-pr-076-ficha-do-paciente]] — o cartão passa a abrir a [[Ficha do paciente]]; até então a rota `/pacientes/:id` não existia.

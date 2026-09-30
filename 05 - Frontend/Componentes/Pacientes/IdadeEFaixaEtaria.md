@@ -38,3 +38,5 @@ têm tela — a lista, a ficha e o cadastro do paciente as usam.
 ## Histórico de mudanças
 
 - [[2026-09-30-pr-033-pacientes-idade]] — `idade`, `faixaEtaria` e os testes.
+- [[2026-09-30-pr-051-lista-de-pacientes]] — a lista mostra a idade no cartão, por `anosDoPaciente` e `rotuloIdade` (`exibicao.ts`).
+- [[2026-09-30-pr-076-ficha-do-paciente]] — o cabeçalho da ficha mostra a idade.

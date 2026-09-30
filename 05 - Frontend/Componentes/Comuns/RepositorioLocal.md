@@ -13,7 +13,9 @@ tags: [funcionalidade, fundacao, dados]
 
 A camada de dados da v1: **coleções tipadas sobre o `localStorage` do navegador**, com versão de esquema, assinatura para o React e sincronização entre abas. É a fronteira que o [[ADR-001-frontend-primeiro-com-dados-locais]] exige: a tela lê por hook e escreve por função de `src/dados/`, e **nunca** toca o `localStorage`. Trocar o armazenamento por uma API mexe atrás dela, e as telas não mudam.
 
-Esta peça não traz coleção de domínio (paciente, agenda…): cada módulo cria a sua com `criarColecao`.
+Esta peça não traz coleção de domínio: as oito do núcleo (paciente, consulta, plano…) estão em
+`src/dados/colecoes.ts` ([[2026-09-30-pr-035-colecoes-e-sementes]]), e o dado que só um módulo usa nasce no
+módulo, com `criarColecao`.
 
 ## Onde está no código
 
@@ -21,6 +23,8 @@ Esta peça não traz coleção de domínio (paciente, agenda…): cada módulo c
 - `src/dados/useColecao.ts` — o hook `useColecao(colecao)`.
 - `src/dados/id.ts` — `novoId()`.
 - Testes ao lado de cada arquivo (`*.test.ts`, `*.test.tsx`).
+- Sobre esta camada, em `src/dados/`: as coleções do núcleo (`colecoes.ts`) e os dados de demonstração
+  (`sementes.ts` e `semeadores.ts`), do PR [[2026-09-30-pr-035-colecoes-e-sementes]].
 
 ## Comportamento
 
@@ -99,3 +103,4 @@ Quando outra aba grava (o evento `storage` chega só às outras abas), a coleç�
 ## Histórico de mudanças
 
 - [[2026-09-30-pr-024-repositorio-local]] — criação: coleções com versão de esquema, `useColecao` e `novoId`.
+- [[2026-09-30-pr-035-colecoes-e-sementes]] — as coleções do núcleo e os semeadores nascem sobre esta camada, sem alterá-la.

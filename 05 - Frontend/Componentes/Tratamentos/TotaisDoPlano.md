@@ -33,10 +33,11 @@ total não se guarda no plano: calcula-se aqui, sempre do mesmo jeito.
 - **`ItemPlano.realizadoEm`** é opcional: ausente é ainda a fazer, no molde de `Lancamento.pagoEm`.
   Quem grava o dia é o atendimento; estas funções só leem.
 - **O percentual do desconto não é guardado** — o plano só tem o valor em centavos. Mudar os itens
-  depois não recalcula o desconto.
+  depois não recalcula o desconto. A conta do desconto está em [[DescontoDoOrcamento]].
 - Tudo em centavos inteiros (ADR-005): a soma de inteiros fecha, sem o erro de centavo do ponto
   flutuante.
 
 ## Histórico de mudanças
 
 - [[2026-09-30-pr-049-tratamentos-plano]] — `subtotal`, `total`, `itensRealizados` e o campo `realizadoEm` do item.
+- [[2026-09-30-pr-068-tratamentos-desconto]] — o desconto ganha a própria conta, em [[DescontoDoOrcamento]].

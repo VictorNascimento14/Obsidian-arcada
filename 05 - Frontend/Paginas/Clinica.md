@@ -12,8 +12,9 @@ tags: [funcionalidade, clinica, cadastro]
 ## O que é
 
 A tela de cadastro da clínica, no grupo **Cadastros** da coluna lateral. Cada assunto é um cartão, e os
-cartões ficam empilhados na mesma página. Hoje há um: os **dados da clínica**. Profissionais, cadeiras,
-expediente e convênios entram depois, como novos cartões do mesmo módulo.
+cartões ficam empilhados na mesma página. Hoje há três: os **dados da clínica**, os **profissionais**
+([[Profissionais]]) e as **cadeiras** ([[Cadeiras]]). Expediente e convênios entram depois, como novos cartões
+do mesmo módulo.
 
 ## Onde está no código
 
@@ -22,6 +23,8 @@ expediente e convênios entram depois, como novos cartões do mesmo módulo.
   ([[ADR-003-modulos-por-pasta-com-registro-automatico]]).
 - `src/modulos/clinica/PaginaClinica.tsx` — a página: `PageShell` e os cartões.
 - `src/modulos/clinica/DadosDaClinica.tsx` — o cartão do formulário.
+- `src/modulos/clinica/Profissionais.tsx` — o cartão da equipe ([[Profissionais]]).
+- `src/modulos/clinica/Cadeiras.tsx` — o cartão dos postos de atendimento ([[Cadeiras]]).
 - `src/modulos/clinica/dadosDaClinica.ts` — `validarDadosDaClinica`, `salvarDadosDaClinica`,
   `camposDaClinica` e os `LIMITES` de tamanho.
 - Dados: coleção `clinica` (registro único, id `CLINICA_ID`) em `src/dados/colecoes.ts`; tipo `Clinica`
@@ -50,3 +53,5 @@ O cartão entra subindo quando aparece (`GlassCard`); ao salvar, um aviso passag
 ## Histórico de mudanças
 
 - [[2026-09-30-pr-048-dados-da-clinica]] — Dados da clínica: formulário de nome, telefone, endereço e cidade/UF, e a rota `/clinica` com o item da coluna.
+- [[2026-09-30-pr-064-profissionais-da-clinica]] — o cartão de profissionais, depois dos dados da clínica.
+- [[2026-09-30-pr-069-cadeiras-da-clinica]] — o cartão de cadeiras, depois dos profissionais.

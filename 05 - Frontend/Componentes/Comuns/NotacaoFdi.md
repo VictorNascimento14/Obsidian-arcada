@@ -14,11 +14,13 @@ tags: [funcionalidade, comuns, odontograma, fdi]
 A regra da notação FDI (ISO 3950) do dente: que números existem, em que ordem se desenham e o que cada
 número diz — quadrante, dentição, arcada, lado do paciente, tipo e nome. Não tem tela: o odontograma, o
 periodontograma e o plano de tratamento a usam. A decisão está no
-[[ADR-004-notacao-fdi-no-odontograma]]; os termos, no [[glossario]].
+[[ADR-004-notacao-fdi-no-odontograma]]; os termos, no [[glossario]]. As faces de cada dente, que saem da arcada
+e do tipo que esta regra dá, estão em [[FacesDoDente]].
 
 ## Onde está no código
 
-- `src/dominio/fdi.ts` — a regra, reexportada por `@/dominio`.
+- `src/dominio/fdi.ts` — a regra, reexportada por `@/dominio`. As faces por dente moram no mesmo arquivo
+  ([[FacesDoDente]]).
 - `src/dominio/fdi.test.ts` — os testes.
 - `NumeroDente` (só `number`) e `Face` ficam em `src/dominio/odontologia.ts` ([[TiposDoDominio]]).
 
@@ -56,3 +58,4 @@ periodontograma e o plano de tratamento a usam. A decisão está no
 ## Histórico de mudanças
 
 - [[2026-09-30-pr-053-odontograma-notacao-fdi]] — a regra da notação: listas, validade, quadrante, dentição, arcada, lado, tipo e nome.
+- [[2026-09-30-pr-065-odontograma-faces-por-dente]] — as faces de cada dente entram no mesmo arquivo, com nota própria: [[FacesDoDente]].

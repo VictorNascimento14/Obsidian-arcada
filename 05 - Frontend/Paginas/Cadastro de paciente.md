@@ -41,8 +41,8 @@ salvar, leva à ficha do paciente.
 - **A regra de verdade é `regras.ts`.** O formulário mostra as mensagens de `validarPaciente`, mas
   `cadastrarPaciente` valida de novo e lança, sem gravar, se algo estiver errado. A mensagem cita os campos,
   nunca os valores digitados.
-- **Salvar** grava o paciente com um id novo e vai para `/pacientes/<id>` (a ficha chega no item 1.5 do
-  plano). **Cancelar** volta à lista sem gravar.
+- **Salvar** grava o paciente com um id novo e vai para a [[Ficha do paciente]] (`/pacientes/<id>`).
+  **Cancelar** volta à lista sem gravar.
 - **Autopreenchimento desligado** (`autoComplete="off"`): o navegador não põe o nome, o telefone e o e-mail
   de quem usa o app no cadastro do paciente. A validação nativa também é desligada (`noValidate`): as
   mensagens são as do app.
@@ -56,3 +56,4 @@ animação própria.
 ## Histórico de mudanças
 
 - [[2026-09-30-pr-071-cadastro-de-paciente]] — a tela, as regras de escrita e o botão `Novo paciente` na lista.
+- [[2026-09-30-pr-076-ficha-do-paciente]] — salvar passa a abrir a [[Ficha do paciente]]; até então a rota não existia.

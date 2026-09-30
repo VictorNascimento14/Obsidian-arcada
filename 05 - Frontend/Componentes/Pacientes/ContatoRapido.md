@@ -11,8 +11,8 @@ tags: [funcionalidade, pacientes, contato, whatsapp]
 
 ## O que é
 
-Os links para falar com o paciente: WhatsApp e ligação. Hoje só existe a parte pura; os botões na ficha
-do paciente vêm quando a ficha existir.
+Os links para falar com o paciente: WhatsApp e ligação. Os botões `WhatsApp` e `Ligar` estão no cabeçalho da
+[[Ficha do paciente]], e o [[Cadastro de paciente]] usa `linkTelefone` como critério de telefone válido.
 
 ## Onde está no código
 
@@ -27,10 +27,12 @@ do paciente vêm quando a ficha existir.
 - **`linkWhatsApp(telefone, texto?)`**: `https://wa.me/55<DDD><número>`, com `?text=` e o texto
   codificado quando `texto` vem preenchido.
 - **`linkTelefone(telefone)`**: `tel:+55<DDD><número>`, em formato internacional.
-- **Telefone que não serve** (vazio, curto, longo, estrangeiro): os dois devolvem `null`. O botão da
-  ficha deve ficar desabilitado; um link com número errado abriria a conversa com a pessoa errada.
+- **Telefone que não serve** (vazio, curto, longo, estrangeiro): os dois devolvem `null`, e o botão
+  correspondente some da ficha; um link com número errado abriria a conversa com a pessoa errada.
 - **Só o tamanho é conferido**: DDD e prefixo do número inexistentes passam.
 
 ## Histórico de mudanças
 
 - [[2026-09-30-pr-036-pacientes-contato]] — `linkWhatsApp`, `linkTelefone` e os testes; os botões na ficha ficam para depois.
+- [[2026-09-30-pr-071-cadastro-de-paciente]] — o cadastro passa a usar `linkTelefone` como critério de telefone válido.
+- [[2026-09-30-pr-076-ficha-do-paciente]] — os botões `WhatsApp` e `Ligar` no cabeçalho da ficha.

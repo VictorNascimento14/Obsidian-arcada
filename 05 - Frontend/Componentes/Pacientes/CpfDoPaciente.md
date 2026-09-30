@@ -31,7 +31,10 @@ edição e a ficha do paciente as usam.
   recusa é explícita.
 - **Campo vazio**: `cpfValido("")` é `false`. O CPF é opcional no cadastro, então quem decide que o
   vazio vale é o formulário.
+- **Onde é usada**: o [[Cadastro de paciente]] aplica `formatarCpf` a cada tecla e `cpfValido` ao enviar,
+  gravando `limparCpf(valor)`; a [[Ficha do paciente]] mostra o CPF com máscara.
 
 ## Histórico de mudanças
 
 - [[2026-09-30-pr-030-pacientes-cpf]] — `limparCpf`, `formatarCpf` e `cpfValido`, com os testes.
+- [[2026-09-30-pr-071-cadastro-de-paciente]] — o cadastro passa a usar a máscara e a validação.

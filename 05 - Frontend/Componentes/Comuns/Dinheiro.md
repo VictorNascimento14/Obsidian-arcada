@@ -13,13 +13,16 @@ tags: [funcionalidade, comuns, dinheiro]
 
 O dinheiro do Arcada: `Centavos`, um número inteiro (R$ 12,34 é `1234`), e as funções das bordas — `formatarReais`
 na saída, `paraCentavos` na entrada — mais `somarCentavos`. No meio do caminho ninguém converte nem divide por
-100. A decisão está em [[ADR-005-dinheiro-em-centavos-inteiros]]. O parcelamento, que também mora aqui pelo ADR,
-ainda não existe: vem no item 7.5 do [[2026-09-30-plano-da-v1]].
+100. A decisão está em [[ADR-005-dinheiro-em-centavos-inteiros]]. O parcelamento, que o ADR também situa aqui,
+mora no módulo Tratamentos ([[ParcelamentoDoOrcamento]]), e o arredondamento do desconto percentual, em
+[[DescontoDoOrcamento]].
 
 ## Onde está no código
 
 - `src/dominio/dinheiro.ts` — `Centavos`, `formatarReais`, `paraCentavos` e `somarCentavos`.
 - `src/dominio/dinheiro.test.ts` — os formatos aceitos e recusados, o limite do inteiro exato e a soma.
+- Fora desta pasta: `parcelar`, em `src/modulos/tratamentos/parcelas.ts` — o backlog o pôs no módulo, e não em
+  `src/dominio/` —, e `aplicarDesconto`, em `src/modulos/tratamentos/desconto.ts`.
 
 ## Comportamento
 
@@ -46,3 +49,5 @@ ainda não existe: vem no item 7.5 do [[2026-09-30-plano-da-v1]].
 ## Histórico de mudanças
 
 - [[2026-09-30-pr-025-tipos-do-dominio]] — `Centavos`, `formatarReais`, `paraCentavos` e `somarCentavos`.
+- [[2026-09-30-pr-055-tratamentos-parcelas]] — o parcelamento, que o ADR situava aqui, nasce no módulo Tratamentos; esta nota passa a apontar para lá.
+- [[2026-09-30-pr-068-tratamentos-desconto]] — o arredondamento do desconto percentual, também no módulo Tratamentos.
