@@ -7,7 +7,7 @@ pr: 34
 url: https://github.com/VictorNascimento14/Arcada/pull/34
 branch: feat/financeiro-extenso
 tags: [pr, financeiro, recibo]
-status: aberto
+status: merged
 ---
 
 # PR #34 — feat(financeiro): escrever o valor do recibo por extenso
