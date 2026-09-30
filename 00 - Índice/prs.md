@@ -56,3 +56,4 @@ Toda mudança no repositório de código vira uma nota aqui. Mais recente embaix
 | #92 | [[2026-09-30-pr-092-anamnese-alertas]] — feat(anamnese): derivar os alertas das respostas da anamnese |
 | #93 | [[2026-09-30-pr-093-agenda-marcar]] — feat(agenda): marcar consulta bloqueando conflito e feriado |
 | #94 | [[2026-09-30-pr-094-odontograma-denticao]] — feat(odontograma): alternar a dentição permanente, decídua e mista |
+| #96 | [[2026-09-30-pr-096-cadastro-de-procedimento]] — feat(procedimentos): cadastrar e editar procedimento com preço, duração e exigência de dente e face |
