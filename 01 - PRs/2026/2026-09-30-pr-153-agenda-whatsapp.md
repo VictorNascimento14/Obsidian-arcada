@@ -7,7 +7,7 @@ pr: 153
 url: https://github.com/VictorNascimento14/Arcada/pull/153
 branch: feat/agenda-whatsapp
 tags: [pr, agenda, whatsapp, confirmacao]
-status: aberto
+status: merged
 ---
 
 # PR #153 — feat(agenda): pedir a confirmação da consulta pelo WhatsApp
