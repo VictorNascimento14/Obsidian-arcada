@@ -216,7 +216,7 @@ clínica — além de CPF, telefone e o que cada um pagou. Dado referente à sa�
   nota, nem em log colado, nem em mensagem de commit, nem em print.
 - ✅ Use os exemplos anonimizados **estáveis** (sempre estes):
   - paciente: `Paciente Exemplo` · e-mail: `paciente@exemplo.com`
-  - profissional: `Dra. Exemplo` · registro: `CRO-UF 00000`
+  - profissional: `Dra. Exemplo` · registro: `CRO-SP 00000`
 - ✅ **CPF não entra em semente, nota nem print.** Todo CPF com dígito verificador válido pode ser de uma
   pessoa real; o teste de validação calcula o número no próprio teste.
 - ✅ Contagem agregada pode: "12 pacientes, 30 consultas". Identificador de pessoa, não.
