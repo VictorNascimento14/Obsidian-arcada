@@ -7,7 +7,7 @@ pr: 111
 url: https://github.com/VictorNascimento14/Arcada/pull/111
 branch: feat/anamnese-selo
 tags: [pr, anamnese, alertas, selo]
-status: aberto
+status: merged
 ---
 
 # PR #111 — feat(anamnese): mostrar os alertas da anamnese em um selo para o cartão e a ficha
