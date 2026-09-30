@@ -7,7 +7,7 @@ pr: 89
 url: https://github.com/VictorNascimento14/Arcada/pull/89
 branch: feat/odontograma-arcadas
 tags: [pr, odontograma, arcadas, acessibilidade]
-status: aberto
+status: merged
 ---
 
 # PR #89 — feat(odontograma): desenhar as arcadas superior e inferior
