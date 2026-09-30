@@ -7,7 +7,7 @@ pr: 143
 url: https://github.com/VictorNascimento14/Arcada/pull/143
 branch: feat/atendimento-realizado
 tags: [pr, atendimento, tratamentos, plano]
-status: aberto
+status: merged
 ---
 
 # PR #143 — feat(atendimento): registrar o procedimento realizado nos itens do plano
