@@ -11,17 +11,15 @@ tags: [funcionalidade, financeiro, parcela, orcamento, lista]
 
 ## O que é
 
-A primeira tela do módulo Financeiro: os planos de tratamento aprovados (ou já em andamento) que ainda não têm
-parcelas, cada um com o botão **Gerar parcelas**. Abre pelo item **Financeiro** da coluna lateral (grupo Gestão,
-ícone de moeda), que também está na barra de baixo do celular. É aqui que o orçamento aprovado vira dinheiro a
+O cartão dos planos de tratamento aprovados (ou já em andamento) que ainda não têm parcelas, cada um com o botão **Gerar parcelas**, na tela `/financeiro`. A tela abre pelo item **Financeiro** da coluna lateral (grupo Gestão, ícone de moeda), que também está na barra de baixo do celular, e empilha três cartões: as [[ContasAReceber]], a [[Inadimplencia]] e este, dos planos sem parcelas. É aqui que o orçamento aprovado vira dinheiro a
 receber: cada parcela gerada é um lançamento ([[glossario]]: Parcela e Lançamento).
 
 ## Onde está no código
 
 - `src/modulos/financeiro/modulo.ts` — a rota `/financeiro`, o item da coluna (grupo `gestao`, ordem 20, ícone
   `coin`, `barraCelular`) e a aba `Financeiro` da ficha (`abaPaciente`, ordem 50).
-- `PaginaFinanceiro.tsx` — a página (`PageShell` e o cartão). `PlanosSemParcelas.tsx` — o cartão: as linhas e o modal.
-- `FormularioDasParcelas.tsx` — o modal **Gerar parcelas**. `AbaFinanceiro.tsx` — a aba da ficha.
+- `PaginaFinanceiro.tsx` — a página (`PageShell` e os três cartões: `ContasAReceber`, `Inadimplentes` e este). `PlanosSemParcelas.tsx` — o cartão: as linhas e o modal.
+- `FormularioDasParcelas.tsx` — o modal **Gerar parcelas**. `AbaFinanceiro.tsx` — a aba da ficha, com a situação, a forma do pagamento e o botão **Dar baixa** ([[BaixaDaParcela]]).
 - As regras estão em [[GeracaoDeParcelas]]. A tela reaproveita `SituacaoBadge`, `rotuloItens` e `total` do módulo de
   tratamentos ([[TotaisDoPlano]]) e `dataBR` do de pacientes; nenhum arquivo de outro módulo foi editado
   ([[ADR-003-modulos-por-pasta-com-registro-automatico]]).
@@ -48,10 +46,11 @@ receber: cada parcela gerada é um lançamento ([[glossario]]: Parcela e Lançam
 
 ## A aba Financeiro da ficha
 
-Os lançamentos do paciente, do vencimento mais antigo ao mais novo, cada um com `Vence em 15/10/2026`, `Em aberto`
-(ou `Pago em …`) e o valor. Sem lançamento, diz onde as parcelas nascem e leva a `/financeiro`. É a aba de ordem 50
-da [[FichaDoPaciente]]. A situação da parcela (a vencer, vence hoje, vencida) chega no item 10.2 do plano da v1, e a
-baixa, no 10.3.
+Os lançamentos do paciente, do vencimento mais antigo ao mais novo. Cada parcela mostra `Vencimento em
+15/10/2026`, a situação numa pílula — a vencer, vence hoje, vencida ou paga ([[SituacaoDaParcela]]) — e o valor.
+A paga diz `Pago em 15/10/2026 · Pix` (o dia e a forma do pagamento), e a que está em aberto leva o botão **Dar
+baixa**, que abre o modal de [[BaixaDaParcela]]. Sem lançamento, a aba diz onde as parcelas nascem e leva a
+`/financeiro`. É a aba de ordem 50 da [[FichaDoPaciente]].
 
 ## Movimento e micro-interações
 
@@ -61,3 +60,6 @@ animação do kit, o foco entra no painel e volta ao botão que o abriu.
 ## Histórico de mudanças
 
 - [[2026-09-30-pr-127-financeiro-parcelas]] — a tela `/financeiro` com os planos sem parcelas e o modal **Gerar parcelas**; a aba **Financeiro** da ficha.
+- [[2026-09-30-pr-135-financeiro-a-receber]] — a situação de cada parcela na aba da ficha, e o cartão [[ContasAReceber]] acima deste.
+- [[2026-09-30-pr-147-financeiro-baixa]] — a forma e o dia do pagamento e o botão **Dar baixa** na aba da ficha.
+- [[2026-09-30-pr-157-financeiro-inadimplencia]] — o cartão [[Inadimplencia]], entre as contas a receber e este.
