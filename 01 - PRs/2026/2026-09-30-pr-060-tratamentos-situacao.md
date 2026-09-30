@@ -7,7 +7,7 @@ pr: 60
 url: https://github.com/VictorNascimento14/Arcada/pull/60
 branch: feat/tratamentos-situacao
 tags: [pr, tratamentos, situacao]
-status: aberto
+status: merged
 ---
 
 # PR #60 — feat(tratamentos): definir as transições da situação do plano
