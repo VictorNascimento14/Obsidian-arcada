@@ -51,3 +51,4 @@ Toda mudança no repositório de código vira uma nota aqui. Mais recente embaix
 | #80 | [[2026-09-30-pr-080-odontograma-dente]] — feat(odontograma): desenhar o dente com as cinco faces |
 | #81 | [[2026-09-30-pr-081-lista-de-procedimentos]] — feat(procedimentos): listar procedimentos com busca por nome e código e filtro por especialidade |
 | #82 | [[2026-09-30-pr-082-anamnese-questionario]] — feat(anamnese): definir o questionário da anamnese e a validação das respostas |
+| #88 | [[2026-09-30-pr-088-periodontograma-exame]] — feat(periodontograma): modelar o exame de seis sítios e calcular os índices |
