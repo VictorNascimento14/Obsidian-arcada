@@ -7,7 +7,7 @@ pr: 118
 url: https://github.com/VictorNascimento14/Arcada/pull/118
 branch: feat/agenda-situacao-tela
 tags: [pr, agenda, situacao]
-status: aberto
+status: merged
 ---
 
 # PR #118 — feat(agenda): mudar a situação da consulta pelos botões do detalhe
