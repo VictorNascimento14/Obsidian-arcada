@@ -7,7 +7,7 @@ pr: 189
 url: https://github.com/VictorNascimento14/Arcada/pull/189
 branch: feat/busca-na-casca
 tags: [pr, sistema]
-status: aberto
+status: merged
 ---
 
 # PR #189 — feat(sistema): abrir a busca global com Ctrl+K em qualquer tela
