@@ -7,7 +7,7 @@ pr: 64
 url: https://github.com/VictorNascimento14/Arcada/pull/64
 branch: feat/clinica-profissionais
 tags: [pr, clinica, profissionais, cro]
-status: aberto
+status: merged
 ---
 
 # PR #64 — feat(clinica): cadastrar profissionais com CRO e cor na agenda
