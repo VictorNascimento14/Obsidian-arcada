@@ -7,7 +7,7 @@ pr: 38
 url: https://github.com/VictorNascimento14/Arcada/pull/38
 branch: feat/clinica-cro
 tags: [pr, clinica, cro]
-status: aberto
+status: merged
 ---
 
 # PR #38 — feat(clinica): validar o formato do registro no CRO
