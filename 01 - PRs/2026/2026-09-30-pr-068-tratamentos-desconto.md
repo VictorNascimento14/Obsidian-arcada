@@ -7,7 +7,7 @@ pr: 68
 url: https://github.com/VictorNascimento14/Arcada/pull/68
 branch: feat/tratamentos-desconto
 tags: [pr, tratamentos, orcamento, dinheiro]
-status: aberto
+status: merged
 ---
 
 # PR #68 — feat(tratamentos): aplicar o desconto percentual ou em valor ao orçamento
