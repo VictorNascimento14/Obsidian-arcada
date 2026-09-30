@@ -7,7 +7,7 @@ pr: 138
 url: https://github.com/VictorNascimento14/Arcada/pull/138
 branch: feat/perio-superior
 tags: [pr, periodontograma, grade, ficha]
-status: aberto
+status: merged
 ---
 
 # PR #138 — feat(periodontograma): registrar a sondagem da arcada superior na ficha do paciente
