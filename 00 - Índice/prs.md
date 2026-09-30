@@ -27,3 +27,4 @@ Toda mudança no repositório de código vira uma nota aqui. Mais recente embaix
 | #33 | [[2026-09-30-pr-033-pacientes-idade]] — feat(pacientes): calcular a idade e a faixa etária pela data de nascimento |
 | #34 | [[2026-09-30-pr-034-valor-por-extenso]] — feat(financeiro): escrever o valor do recibo por extenso |
 | #35 | [[2026-09-30-pr-035-colecoes-e-sementes]] — feat(dados): coleções do núcleo e dados de demonstração fictícios |
+| #36 | [[2026-09-30-pr-036-pacientes-contato]] — feat(pacientes): gerar os links de WhatsApp e de ligação do paciente |
