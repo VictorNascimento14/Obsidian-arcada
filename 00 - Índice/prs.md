@@ -95,3 +95,4 @@ Toda mudança no repositório de código vira uma nota aqui. Mais recente embaix
 | #169 | [[2026-09-30-pr-169-documentos-declaracao]] — feat(documentos): imprimir a declaração de comparecimento com o horário da consulta |
 | #170 | [[2026-09-30-pr-170-painel-hoje]] — feat(painel): mostrar as consultas de hoje com a situação e a próxima em destaque |
 | #171 | [[2026-09-30-pr-171-sistema-backup]] — feat(sistema): exportar e importar o backup dos dados do navegador |
+| #173 | [[2026-09-30-pr-173-ficha-aba-ativa]] — fix(pacientes): rolar a barra de abas da ficha até a aba ativa |
