@@ -7,7 +7,7 @@ pr: 23
 url: https://github.com/VictorNascimento14/Arcada/pull/23
 branch: feat/telas-de-sistema
 tags: [pr, fundacao, sistema]
-status: aberto
+status: merged
 ---
 
 # PR #23 — feat(sistema): telas de página não encontrada e erro inesperado
