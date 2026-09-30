@@ -78,3 +78,4 @@ Toda mudança no repositório de código vira uma nota aqui. Mais recente embaix
 | #135 | [[2026-09-30-pr-135-financeiro-a-receber]] — feat(financeiro): listar as contas a receber com a situação de cada parcela |
 | #136 | [[2026-09-30-pr-136-atendimento-iniciar]] — feat(atendimento): iniciar o atendimento pela consulta |
 | #138 | [[2026-09-30-pr-138-periodontograma-grade-superior]] — feat(periodontograma): registrar a sondagem da arcada superior na ficha do paciente |
+| #141 | [[2026-09-30-pr-141-documentos-folha]] — feat(documentos): folha impressa com cabeçalho da clínica e linha de assinatura |
