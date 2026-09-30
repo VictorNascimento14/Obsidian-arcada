@@ -7,7 +7,7 @@ pr: 16
 url: https://github.com/VictorNascimento14/Arcada/pull/16
 branch: ui/fundacao-visual
 tags: [pr, fundacao, design]
-status: aberto
+status: merged
 ---
 
 # PR #16 — ui(fundacao): instalar a fundação do sistema vidro-orgânico
