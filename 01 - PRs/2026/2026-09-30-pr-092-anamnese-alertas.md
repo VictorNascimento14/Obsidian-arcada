@@ -7,7 +7,7 @@ pr: 92
 url: https://github.com/VictorNascimento14/Arcada/pull/92
 branch: feat/anamnese-alertas
 tags: [pr, anamnese, alertas]
-status: aberto
+status: merged
 ---
 
 # PR #92 — feat(anamnese): derivar os alertas das respostas da anamnese
