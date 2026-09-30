@@ -7,7 +7,7 @@ pr: 165
 url: https://github.com/VictorNascimento14/Arcada/pull/165
 branch: feat/retornos-regra
 tags: [pr, retornos, regra, datas]
-status: aberto
+status: merged
 ---
 
 # PR #165 — feat(retornos): calcular a data do retorno pelo último atendimento e pelo intervalo do procedimento
