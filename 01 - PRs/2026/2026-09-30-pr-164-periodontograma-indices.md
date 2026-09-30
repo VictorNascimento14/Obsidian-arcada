@@ -7,7 +7,7 @@ pr: 164
 url: https://github.com/VictorNascimento14/Arcada/pull/164
 branch: feat/perio-indices
 tags: [pr, periodontograma, indices, statcard]
-status: aberto
+status: merged
 ---
 
 # PR #164 — feat(periodontograma): mostrar os índices do exame em cartões
