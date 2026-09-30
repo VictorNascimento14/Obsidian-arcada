@@ -7,7 +7,7 @@ pr: 55
 url: https://github.com/VictorNascimento14/Arcada/pull/55
 branch: feat/tratamentos-parcelas
 tags: [pr, tratamentos, orcamento, dinheiro]
-status: aberto
+status: merged
 ---
 
 # PR #55 — feat(tratamentos): parcelar o orçamento distribuindo o resto dos centavos
