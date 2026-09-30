@@ -7,7 +7,7 @@ pr: 125
 url: https://github.com/VictorNascimento14/Arcada/pull/125
 branch: feat/clinica-convenios
 tags: [pr, clinica, convenios]
-status: aberto
+status: merged
 ---
 
 # PR #125 — feat(clinica): cadastrar os convênios aceitos pela clínica
