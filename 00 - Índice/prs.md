@@ -16,3 +16,4 @@ Toda mudança no repositório de código vira uma nota aqui. Mais recente embaix
 | #16 | [[2026-09-30-pr-016-fundacao-visual]] — ui(fundacao): instalar a fundação do sistema vidro-orgânico |
 | #17 | [[2026-09-30-pr-017-primitivos]] — ui(primitivos): instalar os primitivos do vidro-orgânico |
 | #18 | [[2026-09-30-pr-018-casca]] — ui(casca): instalar coluna lateral, cabeçalho e barra do celular |
+| #20 | [[2026-09-30-pr-020-icones]] — ui(icones): acrescentar ícones de navegação do Arcada ao Glyph |
