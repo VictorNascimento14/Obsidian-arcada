@@ -7,7 +7,7 @@ pr: 82
 url: https://github.com/VictorNascimento14/Arcada/pull/82
 branch: feat/anamnese-questionario
 tags: [pr, anamnese, questionario]
-status: aberto
+status: merged
 ---
 
 # PR #82 — feat(anamnese): definir o questionário da anamnese e a validação das respostas
