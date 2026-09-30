@@ -7,7 +7,7 @@ pr: 176
 url: https://github.com/VictorNascimento14/Arcada/pull/176
 branch: feat/retornos-lista
 tags: [pr, retornos, lista, vencidos]
-status: aberto
+status: merged
 ---
 
 # PR #176 — feat(retornos): listar os retornos vencidos e os dos próximos 30 dias
