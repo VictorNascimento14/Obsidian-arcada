@@ -7,7 +7,7 @@ pr: 186
 url: https://github.com/VictorNascimento14/Arcada/pull/186
 branch: feat/sistema-busca
 tags: [pr, sistema, busca, atalho, acessibilidade]
-status: aberto
+status: merged
 ---
 
 # PR #186 — feat(sistema): buscar pacientes pelo atalho Ctrl+K e abrir a ficha com Enter
