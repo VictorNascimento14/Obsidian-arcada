@@ -7,7 +7,7 @@ pr: 129
 url: https://github.com/VictorNascimento14/Arcada/pull/129
 branch: feat/procedimentos-ativar
 tags: [pr, procedimentos, ativo]
-status: aberto
+status: merged
 ---
 
 # PR #129 — feat(procedimentos): ativar e desativar o procedimento
