@@ -7,7 +7,7 @@ pr: 49
 url: https://github.com/VictorNascimento14/Arcada/pull/49
 branch: feat/tratamentos-plano
 tags: [pr, tratamentos, orcamento]
-status: aberto
+status: merged
 ---
 
 # PR #49 — feat(tratamentos): calcular o subtotal, o total e os itens realizados do plano
