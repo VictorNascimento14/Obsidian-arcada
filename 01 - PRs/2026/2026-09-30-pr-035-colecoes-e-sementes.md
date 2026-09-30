@@ -7,7 +7,7 @@ pr: 35
 url: https://github.com/VictorNascimento14/Arcada/pull/35
 branch: feat/colecoes-e-sementes
 tags: [pr, fundacao, dados]
-status: aberto
+status: merged
 ---
 
 # PR #35 — feat(dados): coleções do núcleo e dados de demonstração fictícios
