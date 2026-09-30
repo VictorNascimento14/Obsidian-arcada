@@ -15,7 +15,7 @@ A folha de uma versão da anamnese para o papel, com a linha para o paciente ass
 **Imprimir** de cada linha do [[HistoricoDeVersoes]] (item 2.6 do [[2026-09-30-plano-da-v1]]). A v1 é
 demonstração, não prontuário: a folha não tem assinatura digital nem validade jurídica, e só repete o que foi
 respondido, sem sugerir conduta. O mecanismo (clone no `<body>` e modo de impressão do kit) está em
-[[2026-09-30-css-de-impressao-do-kit-pede-um-clone-no-body]].
+[[2026-09-30-css-de-impressao-do-kit-pede-um-clone-no-body]]. O mesmo mecanismo foi extraído para [[FolhaImpressa]] e o hook `useImpressao` (`src/componentes/`, PR #141), que os documentos da tela [[Documentos]] usam para imprimir; a anamnese continua com o seu (`FolhaDaAnamnese` e o efeito de `HistoricoDeVersoes`) e pode migrar.
 
 ## Onde está no código
 
@@ -57,3 +57,4 @@ Nenhuma na folha. O botão é o `Button` ghost do kit, com o ícone de impressor
 ## Histórico de mudanças
 
 - [[2026-09-30-pr-131-anamnese-impressao]] — a folha da anamnese com a linha de assinatura, aberta pelo Imprimir do histórico.
+- [[2026-09-30-pr-141-documentos-folha]] — o mecanismo de impressão foi extraído para [[FolhaImpressa]] e `useImpressao`; a anamnese segue com o seu e pode migrar.
