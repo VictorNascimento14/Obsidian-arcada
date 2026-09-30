@@ -7,7 +7,7 @@ pr: 104
 url: https://github.com/VictorNascimento14/Arcada/pull/104
 branch: feat/anamnese-formulario
 tags: [pr, anamnese, formulario, ficha]
-status: aberto
+status: merged
 ---
 
 # PR #104 — feat(anamnese): preencher e salvar a anamnese na ficha do paciente
