@@ -64,3 +64,4 @@ Toda mudança no repositório de código vira uma nota aqui. Mais recente embaix
 | #107 | [[2026-09-30-pr-107-expediente-da-clinica]] — feat(clinica): editar o expediente por dia da semana |
 | #108 | [[2026-09-30-pr-108-tratamentos-progresso]] — feat(tratamentos): mostrar o progresso do tratamento na ficha e na lista |
 | #111 | [[2026-09-30-pr-111-anamnese-selo]] — feat(anamnese): mostrar os alertas da anamnese em um selo para o cartão e a ficha |
+| #112 | [[2026-09-30-pr-112-odontograma-marcar]] — feat(odontograma): marcar condição por face e por dente na ficha do paciente |
