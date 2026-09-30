@@ -39,7 +39,8 @@ campo novo edita o arquivo da entidade, no PR do módulo dono dela.
 ## Comportamento
 
 - **Todo registro guardado tem `id: string`, e a ligação entre registros é por id.** A consulta aponta para o
-  paciente, o profissional e a cadeira (`pacienteId`, `profissionalId`, `cadeiraId`); o plano, para o paciente;
+  paciente, o profissional e a cadeira (`pacienteId`, `profissionalId`, `cadeiraId`) e, se houver, o procedimento
+  previsto (`procedimentoId`); o plano, para o paciente;
   o item do plano, para o procedimento (`procedimentoId`); o lançamento, para o paciente e o plano (`planoId`).
   `Expediente` e `FaixaHoraria` não são registros: moram dentro da `Clinica`.
 - **Data é `string` no horário local:** `DataISO` é `AAAA-MM-DD`, `HoraISO` é `HH:mm` e `DataHoraISO` é
@@ -50,7 +51,8 @@ campo novo edita o arquivo da entidade, no PR do módulo dono dela.
   cópia do preço, para que reajustar o catálogo não mude o que já foi orçado.
 - **Opcional só onde o dado pode faltar:** CPF, e-mail, convênio e observações no paciente (sem convênio é
   particular); telefone, endereço, cidade e UF na clínica; especialidade e `ativo` no profissional e `ativa` na
-  cadeira; código e `condicaoResultante` no procedimento; dente e `faces` no item do plano — uma lista, porque um
+  cadeira; código e `condicaoResultante` no procedimento; `procedimentoId` na consulta (uma avaliação ou um retorno pode não
+  ter procedimento previsto); dente e `faces` no item do plano — uma lista, porque um
   item pode levar mais de uma face — e `realizadoEm`, o dia em que o item foi feito (ausente é ainda a fazer);
   `pagoEm` e `forma` no lançamento em aberto, que nascem juntos na baixa.
 - **Ativo é o padrão.** Profissional sem `ativo` e cadeira sem `ativa` — a semente, o dado gravado antes de o
@@ -87,3 +89,4 @@ campo novo edita o arquivo da entidade, no PR do módulo dono dela.
 - [[2026-09-30-pr-069-cadeiras-da-clinica]] — `Cadeira` ganha `ativa`, e a regra `cadeiraAtiva`.
 - [[2026-09-30-pr-071-cadastro-de-paciente]] — `Paciente` ganha `observacoes`.
 - [[2026-09-30-pr-074-catalogo-padrao-de-procedimentos]] — `Procedimento` ganha `codigo` e `condicaoResultante`.
+- [[2026-09-30-pr-079-agenda-dia]] — `Consulta` ganha `procedimentoId`.
