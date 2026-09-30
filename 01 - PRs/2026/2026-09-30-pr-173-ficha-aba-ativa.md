@@ -7,7 +7,7 @@ pr: 173
 url: https://github.com/VictorNascimento14/Arcada/pull/173
 branch: fix/ficha-aba-ativa
 tags: [pr, pacientes]
-status: aberto
+status: merged
 ---
 
 # PR #173 — fix(pacientes): rolar a barra de abas da ficha até a aba ativa
