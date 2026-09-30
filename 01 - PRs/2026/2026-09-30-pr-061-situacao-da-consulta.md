@@ -7,7 +7,7 @@ pr: 61
 url: https://github.com/VictorNascimento14/Arcada/pull/61
 branch: feat/agenda-situacao
 tags: [pr, agenda, situacao]
-status: aberto
+status: merged
 ---
 
 # PR #61 — feat(agenda): definir as transições válidas da situação da consulta
