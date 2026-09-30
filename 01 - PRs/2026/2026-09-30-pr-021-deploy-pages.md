@@ -7,7 +7,7 @@ pr: 21
 url: https://github.com/VictorNascimento14/Arcada/pull/21
 branch: chore/deploy-pages
 tags: [pr, fundacao, deploy]
-status: aberto
+status: merged
 ---
 
 # PR #21 — chore(deploy): publicar a demo no GitHub Pages a cada merge na main
