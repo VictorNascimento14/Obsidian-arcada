@@ -29,3 +29,4 @@ Toda mudança no repositório de código vira uma nota aqui. Mais recente embaix
 | #35 | [[2026-09-30-pr-035-colecoes-e-sementes]] — feat(dados): coleções do núcleo e dados de demonstração fictícios |
 | #36 | [[2026-09-30-pr-036-pacientes-contato]] — feat(pacientes): gerar os links de WhatsApp e de ligação do paciente |
 | #38 | [[2026-09-30-pr-038-registro-no-cro]] — feat(clinica): validar o formato do registro no CRO |
+| #42 | [[2026-09-30-pr-042-exemplo-cro]] — docs(claude): usar um CRO válido como exemplo estável |
