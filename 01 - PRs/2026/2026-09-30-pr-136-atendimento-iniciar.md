@@ -7,7 +7,7 @@ pr: 136
 url: https://github.com/VictorNascimento14/Arcada/pull/136
 branch: feat/atendimento-iniciar
 tags: [pr, atendimento, agenda, ficha]
-status: aberto
+status: merged
 ---
 
 # PR #136 — feat(atendimento): iniciar o atendimento pela consulta
