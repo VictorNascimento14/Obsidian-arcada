@@ -7,7 +7,7 @@ pr: 187
 url: https://github.com/VictorNascimento14/Arcada/pull/187
 branch: feat/retornos-adiar
 tags: [pr, retornos, adiar, dispensar]
-status: aberto
+status: merged
 ---
 
 # PR #187 — feat(retornos): adiar ou dispensar o retorno do paciente com o motivo
