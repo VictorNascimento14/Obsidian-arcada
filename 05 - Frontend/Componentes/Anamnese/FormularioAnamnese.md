@@ -22,6 +22,8 @@ ordem 10), e a ficha a monta quando ela é escolhida. As perguntas e o que signi
 - `src/modulos/anamnese/FormularioAnamnese.tsx` — a tela (exportação padrão, recebe `pacienteId`).
 - `src/modulos/anamnese/dados.ts` — a coleção `anamneses`, `salvarAnamnese` e `versoesDoPaciente`.
 - `src/modulos/anamnese/questionario.ts` — as seções, as perguntas e `respostasValidas`.
+- `src/modulos/anamnese/SeloAlertas.tsx` e `HistoricoDeVersoes.tsx` — montados por esta tela: o selo no topo da
+  aba e o histórico abaixo do formulário ([[SeloAlertas]], [[HistoricoDeVersoes]]).
 
 ## Comportamento
 
@@ -41,7 +43,12 @@ ordem 10), e a ficha a monta quando ela é escolhida. As perguntas e o que signi
 - **Se a gravação for recusada** (por exemplo, o paciente foi removido em outra aba), aparece `Não foi possível
   salvar a anamnese` e nada é gravado.
 - **Cada paciente tem o seu formulário**: trocar de paciente na mesma tela não leva o que foi digitado.
-- **Sem sugestão de conduta**: a tela só colhe respostas. Os avisos derivados delas são do item 2.3.
+- **Selo de alertas**: no topo da aba, o [[SeloAlertas]] mostra os alertas da última versão **salva**; o que
+  está só no rascunho do formulário não entra.
+- **Histórico e impressão**: abaixo do formulário, o [[HistoricoDeVersoes]] lista as versões salvas e abre as
+  respostas de cada uma; o botão **Imprimir** de cada linha abre a [[ImpressaoDaAnamnese]].
+- **Sem sugestão de conduta**: a tela só colhe respostas; os alertas derivados delas só repetem o que foi
+  respondido.
 
 ## Movimento e micro-interações
 
@@ -54,8 +61,9 @@ nativos. Nada mais anima.
 - **O que não foi salvo se perde ao trocar de aba**: a ficha monta só a aba ativa, e o rascunho vive no
   componente.
 - **Salvar sem mudar nada grava uma versão igual à anterior**: cada salvamento é uma versão.
-- Ainda não mostra os alertas (item 2.4), o histórico (2.5) nem imprime (2.6).
-
 ## Histórico de mudanças
 
 - [[2026-09-30-pr-104-anamnese-formulario]] — o formulário na ficha, com gravação de versões datadas.
+- [[2026-09-30-pr-111-anamnese-selo]] — o selo de alertas no topo da aba.
+- [[2026-09-30-pr-122-anamnese-historico]] — o histórico de versões abaixo do formulário.
+- [[2026-09-30-pr-131-anamnese-impressao]] — a impressão de uma versão, pelo botão Imprimir do histórico.
