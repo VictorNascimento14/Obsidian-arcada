@@ -7,7 +7,7 @@ pr: 36
 url: https://github.com/VictorNascimento14/Arcada/pull/36
 branch: feat/pacientes-contato
 tags: [pr, pacientes, contato, whatsapp]
-status: aberto
+status: merged
 ---
 
 # PR #36 — feat(pacientes): gerar os links de WhatsApp e de ligação do paciente
