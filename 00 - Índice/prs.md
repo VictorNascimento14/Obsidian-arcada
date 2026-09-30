@@ -82,3 +82,4 @@ Toda mudança no repositório de código vira uma nota aqui. Mais recente embaix
 | #143 | [[2026-09-30-pr-143-atendimento-realizado]] — feat(atendimento): registrar o procedimento realizado nos itens do plano |
 | #145 | [[2026-09-30-pr-145-agenda-semana]] — feat(agenda): mostrar a semana da agenda em sete colunas |
 | #146 | [[2026-09-30-pr-146-periodontograma-teclado-arcada-inferior]] — feat(periodontograma): incluir a arcada inferior e percorrer a grade pelo teclado |
+| #147 | [[2026-09-30-pr-147-financeiro-baixa]] — feat(financeiro): dar baixa em uma parcela com a forma e a data do pagamento |
