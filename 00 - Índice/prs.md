@@ -88,3 +88,4 @@ Toda mudança no repositório de código vira uma nota aqui. Mais recente embaix
 | #154 | [[2026-09-30-pr-154-documentos-receituario]] — feat(documentos): imprimir o receituário em texto livre com linha para assinatura |
 | #156 | [[2026-09-30-pr-156-periodontograma-sangramento-supuracao]] — feat(periodontograma): marcar sangramento e supuração em cada sítio |
 | #157 | [[2026-09-30-pr-157-financeiro-inadimplencia]] — feat(financeiro): calcular a inadimplência por paciente com os dias de atraso e o total vencido |
+| #159 | [[2026-09-30-pr-159-atendimento-odontograma]] — feat(atendimento): aplicar no odontograma a condição do procedimento realizado |
