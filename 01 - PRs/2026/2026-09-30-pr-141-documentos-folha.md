@@ -7,7 +7,7 @@ pr: 141
 url: https://github.com/VictorNascimento14/Arcada/pull/141
 branch: feat/documentos-folha
 tags: [pr, documentos, impressao, assinatura]
-status: aberto
+status: merged
 ---
 
 # PR #141 — feat(documentos): folha impressa com cabeçalho da clínica e linha de assinatura
