@@ -7,7 +7,7 @@ pr: 65
 url: https://github.com/VictorNascimento14/Arcada/pull/65
 branch: feat/odontograma-faces
 tags: [pr, odontograma, dominio]
-status: aberto
+status: merged
 ---
 
 # PR #65 — feat(odontograma): definir as faces de cada dente e a validação delas
