@@ -7,7 +7,7 @@ pr: 159
 url: https://github.com/VictorNascimento14/Arcada/pull/159
 branch: feat/atendimento-odontograma
 tags: [pr, atendimento, odontograma, tratamentos]
-status: aberto
+status: merged
 ---
 
 # PR #159 — feat(atendimento): aplicar no odontograma a condição do procedimento realizado
