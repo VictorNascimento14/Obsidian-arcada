@@ -24,7 +24,10 @@ que espelham estes termos, em [[TiposDoDominio]].
   e **idoso** a partir de 60. É só um agrupamento por idade ([[IdadeEFaixaEtaria]]).
 - **Anamnese** — Questionário sobre a saúde e o histórico do paciente: o que ele conta ao profissional
   antes e durante o tratamento. No Arcada ela mora na ficha, guarda o **histórico de versões** e imprime
-  com linha para assinatura à mão. As perguntas do modelo são definidas no módulo 2 (`<A DEFINIR>`).
+  com linha para assinatura à mão. O modelo tem cinco seções — saúde geral, medicamentos em uso, alergias,
+  hábitos e histórico odontológico — e 19 perguntas: as de sim ou não (algumas com um campo de detalhe, como
+  "Qual?") e as de texto. Toda pergunta de sim ou não precisa de resposta para gravar: "não respondeu" não é
+  "não" ([[2026-09-30-pr-082-anamnese-questionario]]).
 - **Alerta (da anamnese)** — Aviso derivado de uma resposta da anamnese, mostrado num selo no cartão e na
   ficha do paciente. O alerta **só repete o que foi respondido** ("marcou alergia a …"); não decide
   tratamento, dose nem contraindicação.
