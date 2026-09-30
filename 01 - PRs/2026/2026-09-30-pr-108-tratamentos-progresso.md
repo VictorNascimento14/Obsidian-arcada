@@ -7,7 +7,7 @@ pr: 108
 url: https://github.com/VictorNascimento14/Arcada/pull/108
 branch: feat/tratamentos-progresso
 tags: [pr, tratamentos, plano, progresso, meterbar]
-status: aberto
+status: merged
 ---
 
 # PR #108 — feat(tratamentos): mostrar o progresso do tratamento na ficha e na lista
