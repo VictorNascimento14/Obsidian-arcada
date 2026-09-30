@@ -7,7 +7,7 @@ pr: 97
 url: https://github.com/VictorNascimento14/Arcada/pull/97
 branch: feat/tratamentos-itens
 tags: [pr, tratamentos, plano, itens, fdi]
-status: aberto
+status: merged
 ---
 
 # PR #97 — feat(tratamentos): adicionar itens ao plano por dente e face
